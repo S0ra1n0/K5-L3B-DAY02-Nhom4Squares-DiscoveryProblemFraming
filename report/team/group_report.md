@@ -16,29 +16,29 @@
 
 ### 2.1. Pitch
 
-| # | Người đưa ra | Candidate (Job Story ngắn) | Actor | Bottleneck | Câu hỏi phản biện nhận được (ai hỏi) |
-|---:|---|---|---|---|---|
-| 1 | Sơn | Bóc tách checklist và cấu trúc bài lab từ tài liệu dài | Sinh viên làm lab | Đọc tài liệu dài để rút ra các mục phải nộp; [Sơn bổ sung: số phút] | [điền câu hỏi thật (người hỏi)] |
-| 2 | Sơn | Tổng hợp thông báo và lịch từ nhiều kênh (Discord, LMS, Phoenix) | Sinh viên | Lọc thông báo thật giữa nhiều tin nhắn rác trên Discord; gần như ngày nào cũng làm | [điền câu hỏi thật (người hỏi)] |
-| 3 | Sơn | Chuẩn bị nội dung Daily Standup từ lịch sử làm việc | Thành viên làm việc nhóm | Nhớ lại và gom việc đã làm hôm qua; lặp lại mỗi ngày làm việc nhóm | [điền câu hỏi thật (người hỏi)] |
-| 4 | Khoa | Gom yêu cầu, nơi nộp, hạn nộp của một việc đang nằm rải rác ở 4–5 nền tảng | Sinh viên học nhiều môn/lab cùng lúc | Lục Discord/Zalo tìm thông báo thay đổi (giả định, đang bấm giờ) | [điền câu hỏi thật (người hỏi)] |
-| 5 | Khoa | Rà tiến độ task cuối tuần, có task bị lệch trạng thái | Người tự quản lý task | Kiểm lại task quên cập nhật trạng thái: thêm 2–3 phút/task, ngoài 5 phút/task khi rà | [điền câu hỏi thật (người hỏi)] |
-| 6 | Khoa | Bạn bè hỏi lại nơi nộp, format, hạn nộp | Bạn cùng lớp; Khoa là người bị hỏi | Bạn tự tìm trên LMS/Discord không chắc nên phải nhắn hỏi | [điền câu hỏi thật (người hỏi)] |
-| 7 | Dũng | Đối chiếu ngữ cảnh từ nhiều nguồn (Jira, Confluence, Slack, Log) khi xử lý ticket bug/task | Intern/dev tại công ty thực tập | Tìm đủ yêu cầu ở nhiều nguồn; khoảng 30% PR bị trả lại do hiểu thiếu yêu cầu | [điền câu hỏi thật (người hỏi)] |
-| 8 | Dũng | Đọc và lập bảng tổng hợp Literature Review từ hàng chục bài báo PDF | Sinh viên làm đồ án/NCKH | Chưa rõ: bước tìm bài phù hợp hay bước đọc sâu để trích bảng thông số | [điền câu hỏi thật (người hỏi)] |
-| 9 | Dũng | Chuẩn hóa thông tin bug report từ QA/CSKH chuyển cho team Dev | QA/Tester và Dev | Thiếu thông tin trong ticket nên phải nhắn hỏi qua lại | [điền câu hỏi thật (người hỏi)] |
-| 10 | Trung | Soạn Technical Release Notes từ danh sách Pull Request | Dev phụ trách release | Đọc từng PR/diff để viết release notes: 100–115 phút mỗi 2 tuần | [điền câu hỏi thật (người hỏi)] |
-| 11 | Trung | Trích thông tin cốt lõi từ bài báo khoa học cho Literature Review | Sinh viên nghiên cứu | Đọc tài liệu dài: 3–4 tiếng/tuần | [điền câu hỏi thật (người hỏi)] |
-| 12 | Trung | Sàng lọc và gom nhóm bug report từ Discord/Google Form | Người phát hành ứng dụng thử nghiệm | Phân loại thủ công, dễ trùng ticket, thiếu thông tin môi trường | [điền câu hỏi thật (người hỏi)] |
+|   # | Người đưa ra | Candidate (Job Story ngắn)                                                                 | Actor                                | Bottleneck                                                                           | Câu hỏi phản biện nhận được (ai hỏi) |
+| --: | ------------ | ------------------------------------------------------------------------------------------ | ------------------------------------ | ------------------------------------------------------------------------------------ | ------------------------------------ |
+|   1 | Sơn          | Bóc tách checklist và cấu trúc bài lab từ tài liệu dài                                     | Sinh viên làm lab                    | Đọc tài liệu dài để rút ra các mục phải nộp; [Sơn bổ sung: số phút]                  | [điền câu hỏi thật (người hỏi)]      |
+|   2 | Sơn          | Tổng hợp thông báo và lịch từ nhiều kênh (Discord, LMS, Phoenix)                           | Sinh viên                            | Lọc thông báo thật giữa nhiều tin nhắn rác trên Discord; gần như ngày nào cũng làm   | [điền câu hỏi thật (người hỏi)]      |
+|   3 | Sơn          | Chuẩn bị nội dung Daily Standup từ lịch sử làm việc                                        | Thành viên làm việc nhóm             | Nhớ lại và gom việc đã làm hôm qua; lặp lại mỗi ngày làm việc nhóm                   | [điền câu hỏi thật (người hỏi)]      |
+|   4 | Khoa         | Gom yêu cầu, nơi nộp, hạn nộp của một việc đang nằm rải rác ở 4–5 nền tảng                 | Sinh viên học nhiều môn/lab cùng lúc | Lục Discord/Zalo tìm thông báo thay đổi (giả định, đang bấm giờ)                     | [điền câu hỏi thật (người hỏi)]      |
+|   5 | Khoa         | Rà tiến độ task cuối tuần, có task bị lệch trạng thái                                      | Người tự quản lý task                | Kiểm lại task quên cập nhật trạng thái: thêm 2–3 phút/task, ngoài 5 phút/task khi rà | [điền câu hỏi thật (người hỏi)]      |
+|   6 | Khoa         | Bạn bè hỏi lại nơi nộp, format, hạn nộp                                                    | Bạn cùng lớp; Khoa là người bị hỏi   | Bạn tự tìm trên LMS/Discord không chắc nên phải nhắn hỏi                             | [điền câu hỏi thật (người hỏi)]      |
+|   7 | Dũng         | Đối chiếu ngữ cảnh từ nhiều nguồn (Jira, Confluence, Slack, Log) khi xử lý ticket bug/task | Intern/dev tại công ty thực tập      | Tìm đủ yêu cầu ở nhiều nguồn; khoảng 30% PR bị trả lại do hiểu thiếu yêu cầu         | [điền câu hỏi thật (người hỏi)]      |
+|   8 | Dũng         | Đọc và lập bảng tổng hợp Literature Review từ hàng chục bài báo PDF                        | Sinh viên làm đồ án/NCKH             | Chưa rõ: bước tìm bài phù hợp hay bước đọc sâu để trích bảng thông số                | [điền câu hỏi thật (người hỏi)]      |
+|   9 | Dũng         | Chuẩn hóa thông tin bug report từ QA/CSKH chuyển cho team Dev                              | QA/Tester và Dev                     | Thiếu thông tin trong ticket nên phải nhắn hỏi qua lại                               | [điền câu hỏi thật (người hỏi)]      |
+|  10 | Trung        | Soạn Technical Release Notes từ danh sách Pull Request                                     | Dev phụ trách release                | Đọc từng PR/diff để viết release notes: 100–115 phút mỗi 2 tuần                      | [điền câu hỏi thật (người hỏi)]      |
+|  11 | Trung        | Trích thông tin cốt lõi từ bài báo khoa học cho Literature Review                          | Sinh viên nghiên cứu                 | Đọc tài liệu dài: 3–4 tiếng/tuần                                                     | [điền câu hỏi thật (người hỏi)]      |
+|  12 | Trung        | Sàng lọc và gom nhóm bug report từ Discord/Google Form                                     | Người phát hành ứng dụng thử nghiệm  | Phân loại thủ công, dễ trùng ticket, thiếu thông tin môi trường                      | [điền câu hỏi thật (người hỏi)]      |
 
 ### 2.2. Cluster
 
-| Cluster | Các candidate | Pattern chung |
-|---|---|---|
-| A — Thông tin học tập rải rác | #1, #2, #4, #6 | Sinh viên phải gom "làm gì, nộp ở đâu, hạn khi nào" từ nhiều kênh và tài liệu dài |
-| B — Bug report / ticket thiếu ngữ cảnh | #7, #9, #12 | Thông tin lỗi hoặc yêu cầu đến tay Dev thiếu hoặc lộn xộn, phải hỏi lại hoặc làm lại |
-| C — Đọc tài liệu khoa học dài | #8, #11 | Trích thông tin cốt lõi từ nhiều bài báo (Dũng và Trung đưa ra cùng một candidate) |
-| D — Tổng hợp lịch sử làm việc | #3, #5, #10 | Gom các việc đã làm thành bản tóm tắt định kỳ (standup, release notes, tiến độ) |
+| Cluster                                | Các candidate  | Pattern chung                                                                        |
+| -------------------------------------- | -------------- | ------------------------------------------------------------------------------------ |
+| A — Thông tin học tập rải rác          | #1, #2, #4, #6 | Sinh viên phải gom "làm gì, nộp ở đâu, hạn khi nào" từ nhiều kênh và tài liệu dài    |
+| B — Bug report / ticket thiếu ngữ cảnh | #7, #9, #12    | Thông tin lỗi hoặc yêu cầu đến tay Dev thiếu hoặc lộn xộn, phải hỏi lại hoặc làm lại |
+| C — Đọc tài liệu khoa học dài          | #8, #11        | Trích thông tin cốt lõi từ nhiều bài báo (Dũng và Trung đưa ra cùng một candidate)   |
+| D — Tổng hợp lịch sử làm việc          | #3, #5, #10    | Gom các việc đã làm thành bản tóm tắt định kỳ (standup, release notes, tiến độ)      |
 
 ### 2.3. Opportunity Solution Tree rút gọn
 
@@ -61,21 +61,22 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 ### 2.4. Chấm điểm shortlist (1–5)
 
-> [Nhóm tự thảo luận và chấm. Shortlist gợi ý: đại diện cluster A, #10 và #7.]
+| Candidate                                         | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được No AI/Rule/Workflow/Agent | Nhóm hiểu domain |  Tổng |
+| ------------------------------------------------- | -------: | -----------: | -----------------: | -------------: | ----------: | -------------------------------------: | ---------------: | ----: |
+| A — Gom thông tin bài tập từ nhiều kênh (#2 + #4) |        5 |            5 |                  5 |              4 |           5 |                                      5 |                5 | 34/35 |
+| #10 — Release notes từ Pull Request               |        4 |            4 |                  4 |              4 |           3 |                                      5 |                3 | 27/35 |
+| #7 — Đối chiếu ngữ cảnh ticket từ nhiều nguồn     |        4 |            4 |                  3 |              3 |           4 |                                      3 |                3 | 24/35 |
 
-| Candidate | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được No AI/Rule/Workflow/Agent | Nhóm hiểu domain | Tổng |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|
-| A — Gom thông tin bài tập từ nhiều kênh (#2 + #4) | | | | | | | | |
-| #10 — Release notes từ Pull Request | | | | | | | | |
-| #7 — Đối chiếu ngữ cảnh ticket từ nhiều nguồn | | | | | | | | |
+**Candidate được chọn:** Gom thông tin bài tập từ nhiều kênh
 
-**Candidate được chọn:**
-
-**Vì sao chọn:**
+**Vì sao chọn:** Cả 4 thành viên đều là actor, gặp quy trình này hằng ngày trên LMS, Phoenix và Discord của khóa học. Nhóm bấm giờ đo được ngay và phỏng vấn được bạn học trong lớp theo The Mom Test.
 
 **Vì sao loại các candidate còn lại:**
 
-**Xử lý bất đồng (nếu có):**
+- **#7:** Không phải cả 4 thành viên đều thực tập ở môi trường dùng Jira + Confluence + Sentry. Dữ liệu ticket và Slack là dữ liệu nội bộ, không lấy ra làm bộ eval được.
+- **#10:** Chỉ 2 tuần mới làm một lần (100–115 phút/lần). Khi phản biện, nhóm thấy phần lớn thời gian có thể giảm bằng Rule hoặc công cụ có sẵn.
+
+**Xử lý bất đồng (nếu có):** Nhóm phân vân giữa bài toán kỹ thuật phần mềm ở doanh nghiệp và bài toán gom thông tin bài tập. Nhóm chốt bằng bảng điểm, ưu tiên bài lấy được bằng chứng thật ở CP4 và cả 4 người cùng đóng góp được ở CP5–CP6, không chọn theo đề tài "nghe kêu" hơn.
 
 ---
 
