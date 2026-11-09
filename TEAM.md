@@ -4,30 +4,18 @@
 
 ## Thông tin nhóm
 
-- Tên nhóm:
-- Candidate problem nhóm chọn (1 câu):
-- Quyết định cuối (Go / Not Yet / No-Go):
+- Tên nhóm: 4Squares
+- Candidate problem nhóm chọn (1 câu): Sinh viên mất khoảng 25 phút mỗi sáng mở LMS, Phoenix và lướt nhiều kênh Discord để không bỏ sót hạn nộp và thay đổi yêu cầu, nhưng vẫn có lúc sót.
+- Quyết định cuối (Go / Not Yet / No-Go): Chưa chốt (chờ hoàn thiện CP6)
 
 ## Thành viên
 
-| STT | Họ và tên          | MSSV        | Vai trò trong nhóm                                                 | Tài khoản GitHub |
-| --: | ------------------ | ----------- | ------------------------------------------------------------------ | ---------------- |
-|   1 |                    |             |                                                                    |                  |
-|   2 | Nguyễn Tuấn Dũng   | 2A202603859 | Thành viên                                                         | DungNguyen74     |
-|   3 |                    |             |                                                                    |                  |
-|   4 |                    |             |                                                                    |                  |
-| STT | Họ và tên          | MSSV        | Vai trò trong nhóm                                                 | Tài khoản GitHub |
-| --: | ---------          | ----        | ------------------                                                 | ---------------- |
-|   1 |                    |             |                                                                    |                  |
-|   2 |                    |             |                                                                    |                  |
-|   3 | Nguyễn Hoàng Trung | 2A202603826 | Người phản biện chính, Thiết kế quy trình & Viết Problem Statement | trungtk03        |
-|   4 |                    |             |                                                                    |                  |
-| STT | Họ và tên          | MSSV        | Vai trò trong nhóm                                                 | Tài khoản GitHub |
-| --: | ---------          | ----        | ------------------                                                 | ---------------- |
-|   1 | Trần Phạm Minh Sơn | 2A202603802 | Thành viên                                                         | sontpm           |
-|   2 | Nguyễn Tuấn Dũng   | 2A202603859 | Thành viên                                                         | DungNguyen74     |
-|   3 |                    |             |                                                                    |                  |
-|   4 |                    |             |                                                                    |                  |
+| STT | Họ và tên           | MSSV        | Vai trò trong nhóm                                                  | Tài khoản GitHub |
+| --: | ------------------- | ----------- | ------------------------------------------------------------------- | ---------------- |
+|   1 | Nguyễn Lê Đăng Khoa | 2A202603847 | Nhóm trưởng (fork repo, merge các nhánh)                            | s0ra1n0          |
+|   2 | Nguyễn Tuấn Dũng    | 2A202603859 | Thành viên                                                          | DungNguyen74     |
+|   3 | Nguyễn Hoàng Trung  | 2A202603826 | Người phản biện chính, Thiết kế quy trình & Viết Problem Statement | trungtk03        |
+|   4 | Trần Phạm Minh Sơn  | 2A202603802 | Thành viên                                                          | sontpm           |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
 
@@ -35,15 +23,15 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 
 ## Phân công theo checkpoint
 
-| Checkpoint                                 | Người chính        | Người hỗ trợ       | Sản phẩm                                       |
-| ------------------------------------------ | ------------------ | ------------------ | ---------------------------------------------- |
-| CP3 — Hội tụ nhóm                          | Nguyễn Tuấn Dũng   | Nguyễn Hoàng Trung | Cluster, cây OST, bảng chấm điểm               |
-| CP4 — Kiểm chứng                           |                    |                    | Assumption map, snapshot hoặc survey           |
-| CP4 — Research                             |                    |                    | Bảng research có link                          |
-| CP5 — Quy trình trước/sau                  | Nguyễn Hoàng Trung |                    | Quy trình + bảng before/after                  |
-| CP5 — Problem Statement v0                 | Nguyễn Hoàng Trung |                    | Problem Statement v0                           |
-| CP6 — Mức can thiệp + Problem Statement v1 |                    | Nguyễn Hoàng Trung | Ma trận, AI Canvas, eval, Problem Statement v1 |
-| CP6 — Quyết định                           |                    |                    | 4 rủi ro + Go/Not Yet/No-Go                    |
+| Checkpoint                                 | Người chính        | Người hỗ trợ                              | Sản phẩm                                       |
+| ------------------------------------------ | ------------------ | ----------------------------------------- | ---------------------------------------------- |
+| CP3 — Hội tụ nhóm                          | Nguyễn Tuấn Dũng   | Nguyễn Hoàng Trung, Nguyễn Lê Đăng Khoa | Cluster, cây OST, bảng chấm điểm               |
+| CP4 — Kiểm chứng                           |                    |                                           | Assumption map, snapshot hoặc survey           |
+| CP4 — Research                             |                    |                                           | Bảng research có link                          |
+| CP5 — Quy trình trước/sau                  | Nguyễn Hoàng Trung |                                           | Quy trình + bảng before/after                  |
+| CP5 — Problem Statement v0                 | Nguyễn Hoàng Trung |                                           | Problem Statement v0                           |
+| CP6 — Mức can thiệp + Problem Statement v1 |                    | Nguyễn Hoàng Trung                        | Ma trận, AI Canvas, eval, Problem Statement v1 |
+| CP6 — Quyết định                           |                    |                                           | 4 rủi ro + Go/Not Yet/No-Go                    |
 
 ## Cá nhân
 
@@ -53,15 +41,21 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 **Phần việc phụ trách:**
 
-- **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+-
 
-- **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
-
-- **Điều mình học được từ phần nhóm:**
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
 -
 
-### Dung
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+-
+
+**Điều mình học được từ phần nhóm:**
+
+-
+
+### NguyenTuanDung-2A202603859
 
 **Phần việc phụ trách:** Đề xuất & Phản biện Problem Cards (CP3), Thực hiện chấm điểm Shortlist & Xử lý bất đồng chọn bài toán nhóm (Mục 2.4)
 
@@ -82,19 +76,6 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 - **Điều mình học được từ phần nhóm:**
   - **Biết đặt tính khả thi kiểm chứng (Feasibility & Data Access) lên trên sở thích cá nhân:** Ban đầu mình rất muốn bảo vệ bài toán #7 (Đối chiếu ngữ cảnh ticket trên Jira/Slack ở công ty thực tập) vì thấy nó sát với môi trường doanh nghiệp. Tuy nhiên, khi cùng nhóm chấm điểm shortlist ở mục 2.4, mình nhận ra một rào cản thực tế là các bạn khác trong nhóm không có quyền truy cập vào Jira/Slack nội bộ công ty mình để lấy dữ liệu thật và đo baseline trong buổi lab.
   - **Nhận diện pattern chung của bài toán:** Qua thảo luận nhóm, mình hiểu ra rằng dù bối cảnh khác nhau (sinh viên gom thông tin bài tập trên Discord/LMS/Phoenix ở bài A so với thực tập sinh gom ngữ cảnh ticket trên Jira/Confluence/Slack ở bài #7), bản chất cốt lõi của cả hai đều là **đối chiếu thông tin phi cấu trúc bị phân mảnh và phát hiện các thay đổi/đính chính phát sinh qua tin nhắn chat**. Nhờ đó, những góc nhìn về trích dẫn nguồn (Citation) và tách bạch Rule/Workflow từ bài cá nhân của mình vẫn đóng góp trực tiếp vào bài toán chung của nhóm.
--
-
-### Son
-
-**Phần việc phụ trách:**
-
-- **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
-
-- **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
-
-- **Điều mình học được từ phần nhóm:**
-
--
 
 ### NguyenHoangTrung-2A202603826
 
@@ -115,21 +96,16 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 - Soạn thảo nội dung mục 5 (Problem Statement v0) và mục 7 (Problem Statement v1), đặc biệt là 3 ranh giới Boundary cứng: AI không được tự ý hành động nếu chưa có con người duyệt chốt chặn.
 - Hoàn thành đầy đủ báo cáo cá nhân `report/individual/2A202603826_NguyenHoangTrung.md` gồm 10 problem scan (đủ 4 lăng kính, đạt bonus B1), 3 Problem Card chi tiết và bài reflection sâu sắc.
 
-### NguyenTuanDung-2A202603859
-
-**Phần việc phụ trách:**
-
-- **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
-
-- **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
-
-- **Điều mình học được từ phần nhóm:**
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
 - `report/team/group_report.md`: Bảng 2.1 (Pitch candidate #10), Mục 2.2 & 2.3 (Cluster & Cây OST), Mục 4.1 & 4.2 (Sơ đồ quy trình Mermaid As-Is và To-Be), Mục 5 (Problem Statement v0) và Mục 7 (Problem Statement v1).
 - `report/individual/2A202603826_NguyenHoangTrung.md`: Toàn bộ báo cáo cá nhân của Nguyễn Hoàng Trung.
 - Các commit trên repo: `0c12ce6`, `d02f50e`, `18544e5`, `5a34a37`, `d40b1a7`.
 
-### Son
+**Điều mình học được từ phần nhóm:**
+
+- Nhận thức rõ ràng về sự nguy hiểm của cái bẫy "yêu giải pháp của mình" (solution-first). Ban đầu tôi rất muốn nhóm chọn bài toán kỹ thuật Release Notes của mình, nhưng qua phản biện nhóm, tôi học được cách nhìn nhận khách quan dựa trên tần suất gặp phải và tính cấp thiết đối với người dùng.
+- Hiểu sâu sắc sự khác biệt giữa Workflow và Agent: không phải bài toán nào dùng Agent cũng là tốt, mà phải luôn bắt đầu từ mức can thiệp đơn giản nhất đủ dùng; đối với các quy trình có rủi ro cao, sự kiểm soát của con người (Human-in-the-loop) và ranh giới Boundary chặt chẽ là yếu tố sống còn.
 
 ### TranPhamMinhSon-2A202603802
 
@@ -155,16 +131,3 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 - Nắm vững nguyên tắc "Problem-first, not AI-first": chỉ khi tìm ra chính xác bước nghẽn (bottleneck) mới cân nhắc can thiệp AI ở mức đơn giản nhất đủ dùng (Workflow).
 - Thấy rõ giá trị của phản biện đa chiều từ đồng đội giúp phát hiện lỗ hổng Usability và bổ sung boundary an toàn cho AI.
-
-### Trung
-
-**Phần việc phụ trách:**
-
-- **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
-
-- **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
-
-- **Điều mình học được từ phần nhóm:**
-
-- Nhận thức rõ ràng về sự nguy hiểm của cái bẫy "yêu giải pháp của mình" (solution-first). Ban đầu tôi rất muốn nhóm chọn bài toán kỹ thuật Release Notes của mình, nhưng qua phản biện nhóm, tôi học được cách nhìn nhận khách quan dựa trên tần suất gặp phải và tính cấp thiết đối với người dùng.
-- Hiểu sâu sắc sự khác biệt giữa Workflow và Agent: không phải bài toán nào dùng Agent cũng là tốt, mà phải luôn bắt đầu từ mức can thiệp đơn giản nhất đủ dùng; đối với các quy trình có rủi ro cao, sự kiểm soát của con người (Human-in-the-loop) và ranh giới Boundary chặt chẽ là yếu tố sống còn.
