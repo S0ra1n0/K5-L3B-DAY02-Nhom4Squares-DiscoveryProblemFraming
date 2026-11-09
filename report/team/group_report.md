@@ -59,7 +59,7 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 - ✗ "Bot tổng hợp thông báo từ các kênh": đây là cách giải cho Opportunity A, không phải pain.
 - ✗ "Chatbot hỏi đáp môn học": đây là cách giải cho Opportunity D, không phải pain.
 
-Nhóm đào sâu **Opportunity A + B**, vì có số liệu thật (card #2 của Sơn: 25'/ngày). Opportunity C ghi vào hướng tiếp theo.
+Nhóm đào sâu **Opportunity A + B**, vì đã có số phút cho từng bước (card #2 của Sơn: 25'/ngày, ước lượng). Opportunity C ghi vào hướng tiếp theo.
 
 ### 2.4. Chấm điểm shortlist (1–5)
 
@@ -91,7 +91,7 @@ Nhóm đào sâu **Opportunity A + B**, vì có số liệu thật (card #2 củ
 | 4 | Thông báo quan trọng chủ yếu nằm ở vài kênh chính thức do coach/TA đăng (nếu đúng thì Rule là đủ, không cần AI) | Feasibility | 4 | 2 | ✅ |
 | 5 | Ban tổ chức cho phép công cụ tự động đọc các kênh Discord của lớp | Viability | 5 | 1 | Hỏi BTC |
 
-Bằng chứng hiện có: số phút của #1 và #2 mới là ước lượng của 1–2 thành viên (card #2 của Sơn: 25 phút/ngày, trong đó lướt Discord 10 phút; card #1 của Khoa: 4–5 nền tảng mỗi việc).
+Bằng chứng hiện có: số phút của #1 và #2 mới là ước lượng của 1–2 thành viên (card #2 của Sơn: 25 phút/ngày, trong đó lướt Discord 10 phút; card #1 của Khoa: 4–5 nền tảng, khoảng 25'/việc).
 
 Giả định cần kiểm chứng trước: **#1, #2, #3** (phỏng vấn sinh viên nhóm khác) và **#4** (đếm tin nhắn thật trên server Discord của lớp trong 1 tuần).
 

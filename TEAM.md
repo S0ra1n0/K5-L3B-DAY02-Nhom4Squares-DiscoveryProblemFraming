@@ -25,7 +25,7 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 
 | Checkpoint                                 | Người chính        | Người hỗ trợ                              | Sản phẩm                                       |
 | ------------------------------------------ | ------------------ | ----------------------------------------- | ---------------------------------------------- |
-| CP3 — Hội tụ nhóm                          | Nguyễn Tuấn Dũng   | Nguyễn Hoàng Trung, Nguyễn Lê Đăng Khoa | Cluster, cây OST, bảng chấm điểm               |
+| CP3 — Hội tụ nhóm                          | Nguyễn Lê Đăng Khoa (2.1–2.3), Nguyễn Tuấn Dũng (2.4) | Nguyễn Hoàng Trung | Cluster, cây OST, bảng chấm điểm |
 | CP4 — Kiểm chứng                           | Trần Phạm Minh Sơn  | Nguyễn Lê Đăng Khoa                        | Assumption map, snapshot hoặc survey           |
 | CP4 — Research                             | Nguyễn Lê Đăng Khoa |                                            | Bảng research có link                          |
 | CP5 — Quy trình trước/sau                  | Nguyễn Lê Đăng Khoa | Trần Phạm Minh Sơn (số liệu), Nguyễn Hoàng Trung (bản đầu) | Quy trình + bảng before/after |
