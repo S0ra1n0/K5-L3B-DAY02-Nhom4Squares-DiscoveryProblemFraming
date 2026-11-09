@@ -87,7 +87,7 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
 - Pitch Problem Card #1 với dữ liệu baseline đo lường thực tế (bấm giờ 100–115 phút/đợt release) được nhóm đánh giá cao và đưa vào Shortlist của nhóm.
-- Đặt câu hỏi phản biện then chốt cho Đăng Khoa về nguy cơ tạo ra "app thứ 6" khiến người dùng lười áp dụng, giúp nhóm nhận diện rủi ro Usability để điều chỉnh hướng tiếp cận.
+- Đặt câu hỏi phản biện then chốt cho Nguyễn Tuấn Dũng về nguy cơ tạo ra "app thứ 6" khiến người dùng lười áp dụng, giúp nhóm nhận diện rủi ro Usability để điều chỉnh hướng tiếp cận.
 - Trực tiếp vẽ sơ đồ Mermaid trực quan cho quy trình hiện tại (As-Is) và quy trình tương lai (To-Be) trong `group_report.md`.
 - Soạn thảo nội dung mục 5 (Problem Statement v0) và mục 7 (Problem Statement v1), đặc biệt là 3 ranh giới Boundary cứng: AI không được tự ý hành động nếu chưa có con người duyệt chốt chặn.
 - Hoàn thành đầy đủ báo cáo cá nhân `report/individual/2A202603826_NguyenHoangTrung.md` gồm 10 problem scan (đủ 4 lăng kính, đạt bonus B1), 3 Problem Card chi tiết và bài reflection sâu sắc.
