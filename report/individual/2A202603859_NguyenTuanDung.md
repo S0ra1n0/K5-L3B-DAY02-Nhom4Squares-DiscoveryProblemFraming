@@ -7,7 +7,7 @@
 ## 1. Thông tin học viên
 
 - Họ tên: Nguyễn Tuấn Dũng
-- MSSV: 202603859
+- MSSV: 2A202603859
 - Email trường (không bắt buộc, repo có thể để public):
 - Tên nhóm: Nhom4Squares
 - Link repo nhóm: https://github.com/S0ra1n0/K5-L3B-DAY02-Nhom4Squares-DiscoveryProblemFraming
