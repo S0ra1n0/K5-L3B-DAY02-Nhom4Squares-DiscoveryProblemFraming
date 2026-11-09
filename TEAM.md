@@ -1,4 +1,4 @@
-9# Team
+# Team
 
 > Điền file này trên repo chung do nhóm trưởng fork. Nhóm điền phần **Thông tin nhóm** và **Thành viên**. Mỗi người tự điền phần của mình trong **Cá nhân**. Không copy file này sang repo khác.
 
@@ -12,7 +12,7 @@
 
 | STT | Họ và tên                 | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 | --: | ---------                 | ---- | ------------------ | ---------------- |
-|   1 |                           |      |                    |                  |
+|   1 | Trần Phạm Minh Sơn        | 2A202603802 | Thành viên         | sontpm           |
 |   2 |Nguyễn Tuấn Dũng           |2A202603859     |Thành viên                    |DungNguyen74                  |
 |   3 |                           |      |                    |                  |
 |   4 |                           |      |                    |                  |
@@ -61,17 +61,30 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 -
 
-### Son
+### TranPhamMinhSon-2A202603802
 
 **Phần việc phụ trách:**
 
-- **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+- Pitch Problem Card #1 về bóc tách checklist bài lab từ tài liệu (CP3).
+- Phụ trách phác thảo quy trình Tương lai (To-be) 4 bước và bảng so sánh Before/After (CP5).
+- Tham gia phỏng vấn kiểm chứng thực tế 2 bạn sinh viên theo The Mom Test (CP4).
+- Phân tích và lập luận lựa chọn mức can thiệp Workflow thay vì Agent (CP6).
 
-- **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
-- **Điều mình học được từ phần nhóm:**
+- Trình bày và bảo vệ thành công candidate problem của Card #1.
+- Đặt câu hỏi phản biện sâu sắc giúp nhóm nhận diện rủi ro Usability/Eval.
+- Thu thập bằng chứng phỏng vấn xác nhận nỗi đau phân mảnh tài liệu của sinh viên.
+- Hoàn thiện sơ đồ quy trình tương lai có cơ chế Human-in-the-loop, giúp rút ngắn thời gian chuẩn bị từ 50 phút xuống dưới 15 phút.
 
--
+**Bằng chứng**:
+
+- Báo cáo cá nhân: `report/individual/2A202603802_TranPhamMinhSon.md`.
+
+**Điều học được từ phần nhóm:**
+
+- Nắm vững nguyên tắc "Problem-first, not AI-first": chỉ khi tìm ra chính xác bước nghẽn (bottleneck) mới cân nhắc can thiệp AI ở mức đơn giản nhất đủ dùng (Workflow).
+- Thấy rõ giá trị của phản biện đa chiều từ đồng đội giúp phát hiện lỗ hổng Usability và bổ sung boundary an toàn cho AI.
 
 ### Trung
 
