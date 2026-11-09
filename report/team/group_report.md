@@ -35,8 +35,6 @@ Nhóm gồm 4 thành viên, mỗi người chuẩn bị top 3 problem card, tổ
 
 ### 2.2. Cluster
 
-Nhóm gom 12 candidate thành 3 cụm vấn đề có chung bản chất:
-
 | Cluster                                | Các candidate  | Pattern chung                                                                        |
 | -------------------------------------- | -------------- | ------------------------------------------------------------------------------------ |
 | A — Thông tin học tập rải rác          | #1, #2, #4, #6 | Sinh viên phải gom "làm gì, nộp ở đâu, hạn khi nào" từ nhiều kênh và tài liệu dài    |
@@ -65,17 +63,15 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 ### 2.4. Chấm điểm shortlist (1–5)
 
-> [Nhóm tự thảo luận và chấm. Shortlist gợi ý: đại diện cluster A, #10 và #7.]
+| Candidate                                         | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được No AI/Rule/Workflow/Agent | Nhóm hiểu domain |  Tổng |
+| ------------------------------------------------- | -------: | -----------: | -----------------: | -------------: | ----------: | -------------------------------------: | ---------------: | ----: |
+| A — Gom thông tin bài tập từ nhiều kênh (#2 + #4) |        5 |            5 |                  5 |              4 |           5 |                                      5 |                5 | 34/35 |
+| #10 — Release notes từ Pull Request               |        4 |            4 |                  4 |              4 |           3 |                                      5 |                3 | 27/35 |
+| #7 — Đối chiếu ngữ cảnh ticket từ nhiều nguồn     |        4 |            4 |                  3 |              3 |           4 |                                      3 |                3 | 24/35 |
 
-| Candidate                                         | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được No AI/Rule/Workflow/Agent | Nhóm hiểu domain | Tổng |
-| ------------------------------------------------- | -------: | -----------: | -----------------: | -------------: | ----------: | -------------------------------------: | ---------------: | ---: |
-| A — Gom thông tin bài tập từ nhiều kênh (#2 + #4) |        5 |            5 |                  5 |              4 |           5 |                                      5 |                5 |   34 |
-| #10 — Release notes từ Pull Request               |        4 |            4 |                  3 |              3 |           4 |                                      3 |                3 |   24 |
-| #7 — Đối chiếu ngữ cảnh ticket từ nhiều nguồn     |        4 |            4 |                  4 |              4 |           3 |                                      5 |                3 |   27 |
+**Candidate được chọn:** Gom thông tin bài tập từ nhiều kênh
 
-**Candidate được chọn:** A — Gom thông tin bài tập từ nhiều kênh (#2 + #4).
-
-**Vì sao chọn:** Cả 4 thành viên đều là actor trực tiếp trải qua hàng ngày, có thể bấm giờ đo baseline ngay trên Discord/LMS/Phoenix, dễ phỏng vấn bạn cùng lớp để lấy bằng chứng thật và tách bạch rất rõ giữa Rule (lọc kênh/từ khóa) với AI Workflow (đọc hiểu tin nhắn đính chính yêu cầu/deadline).
+**Vì sao chọn:** Cả 4 thành viên đều là actor, gặp quy trình này hằng ngày trên LMS, Phoenix và Discord của khóa học. Nhóm bấm giờ đo được ngay và phỏng vấn được bạn học trong lớp theo The Mom Test.
 
 **Vì sao loại các candidate còn lại:** Đối chiếu ngữ cảnh ticket (#7) có quy trình và nỗi đau rõ nhưng vướng bảo mật dữ liệu nội bộ công ty thực tập, các thành viên khác không có quyền truy cập Jira/Slack để kiểm chứng trong giờ lab. Soạn Release notes từ PR (#10) tần suất thấp (2 tuần/lần) và phần lớn giải quyết được bằng Rule đặt tên commit kết hợp tính năng tạo tự động có sẵn của GitHub.
 
