@@ -71,7 +71,7 @@ Nhóm đào sâu **Opportunity A + B**, vì có số liệu thật (card #2 củ
 
 **Candidate được chọn:** A — Gom thông tin bài tập từ nhiều kênh (#2 + #4).
 
-**Vì sao chọn:** Cả 4 thành viên đều là actor, gặp quy trình này hằng ngày trên LMS, Phoenix và Discord của khóa học. Nhóm bấm giờ đo được ngay và phỏng vấn được bạn học trong lớp theo The Mom Test.
+**Vì sao chọn:** Cả 4 thành viên đều là actor, gặp quy trình này hằng ngày trên LMS, Phoenix và Discord của khóa học. Nhóm có thể bấm giờ đo ngay và phỏng vấn bạn học trong lớp theo The Mom Test.
 
 **Vì sao loại các candidate còn lại:** Đối chiếu ngữ cảnh ticket (#7) có quy trình và nỗi đau rõ nhưng vướng bảo mật dữ liệu nội bộ công ty thực tập, các thành viên khác không có quyền truy cập Jira/Slack để kiểm chứng trong giờ lab. Soạn Release notes từ PR (#10) tần suất thấp (2 tuần/lần) và phần lớn giải quyết được bằng Rule đặt tên commit kết hợp tính năng tạo tự động có sẵn của GitHub.
 
