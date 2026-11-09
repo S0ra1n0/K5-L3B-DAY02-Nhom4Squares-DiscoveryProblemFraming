@@ -148,7 +148,7 @@ HIỆN TẠI — [bổ sung]' / lần hỏi
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
 | Pitch Problem Card | Đưa 3 card vào bảng pitch: #4 gom thông tin bài tập từ 4–5 nền tảng, #5 rà tiến độ task, #6 bạn bè hỏi lại nơi nộp/hạn | Card #4 cùng card #2 của Sơn thành candidate A, bài được nhóm chọn |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: chưa ghi nhận | — |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt cho 3 card của Trung: (1) Release notes: "Đọc diff mất bao nhiêu, viết mất bao nhiêu, bottleneck thật nằm ở bước nào? Viết theo template PR hoặc quy ước commit thì có giảm được một nửa thời gian không?" (2) Literature review: "Tóm tắt thế nào thì tính là đạt? Đã thử công cụ đọc hoặc tóm tắt bài báo nào chưa?" (3) Bug report: "Bao nhiêu report mỗi tuần, tỉ lệ trùng bao nhiêu? Dựa vào đâu để phân biệt bug thật với người dùng dùng sai?" | Với câu (1), Trung trả lời đọc hiểu ngữ cảnh chiếm khoảng 70% thời gian nên template/commit chỉ giảm tối đa 10–15% ở khâu viết, trừ khi chia PR dưới 200 dòng. Nhóm thấy #10 có thể giảm được phần nào bằng Rule, góp vào lý do không chọn #10 ở mục 2.4 |
 | Nhận phản biện | Câu hỏi tôi nhận được: chưa ghi nhận | Tôi đã sửa gì: — |
 | Gom cluster / cây OST | Dựng bảng pitch 12 candidate, gom thành 4 cluster, vẽ cây OST và gạch 2 ý là solution đội lốt ("bot tổng hợp thông báo", "chatbot hỏi đáp môn học") | Thành mục 2.1–2.3 của báo cáo nhóm |
 | Chọn candidate problem | Cùng nhóm chọn candidate A (34/35); sau đó chốt giữ bài A khi phát hiện CP4–CP6 đang viết cho một bài khác | Cả báo cáo nhóm quay về một bài toán thống nhất |
