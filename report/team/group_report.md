@@ -146,34 +146,29 @@ Các link trên đã được mở kiểm ngày 09/11/2026.
 
 ### 4.1. Quy trình hiện tại
 
-Sơ đồ quy trình hiện tại (thực hiện thủ công hoàn toàn):
+Sơ đồ quy trình hiện tại (thủ công hoàn toàn, mỗi sáng). Số phút lấy từ Problem Card #2 của Sơn (Sơn tự ước lượng):
 
 ```mermaid
-flowchart TD
-    A[Bắt đầu: Phòng ban nộp bộ hồ sơ thanh toán] --> B[1. Kế toán tải 4-5 file chứng từ về máy: 2 phút]
-    B --> C[2. Tra cứu tính hợp lệ Hóa đơn & MST trên web Thuế: 2 phút]
-    C --> D[3. Mở song song đọc Hợp đồng scan 10-30 trang & Dò mắt 3 bên: 10-12 phút]
-    D --> E{Kiểm tra đối chiếu: Khớp hay Lệch/Thiếu?}
-    E -- Lệch hoặc Thiếu 25% --> F[5a. Chụp ảnh màn hình lỗi, gõ email từ chối: 5 phút]
-    F --> G[Phòng ban sửa & nộp lại: Trễ 2-3 ngày]
-    G --> B
-    E -- Khớp 100% --> H[4. Kiểm tra mã ngân sách Cost Center trên Excel/ERP: 2 phút]
-    H --> I[5b. Nhập liệu ERP và trình ký lệnh chi tiền: 2 phút]
-    I --> J[Kết thúc: Lệnh chi được tạo]
+flowchart LR
+    A[1. Mở LMS xem To-do, bài mới, hạn: 5'] --> B[2. Mở Phoenix xem lịch học, thông báo lớp: 5']
+    B --> C[3. Lướt Discord: #announcement, #general, #standup: 10']
+    C --> D[4. Ghi lịch họp, deadline vào sổ hoặc app to-do: 5']
 
-    style D fill:#ff6666,stroke:#333,stroke-width:2px,color:#fff
-    style F fill:#ff9999,stroke:#333,stroke-width:2px
+    style C fill:#ff9999,stroke:#333,stroke-width:2px
 ```
 
 | Bước | Actor | Input | Output | Thời gian / tần suất | Ghi chú |
-| ---: | ----- | ----- | ------ | -------------------- | ------- |
-|    1 |       |       |        |                      |         |
-|    2 |       |       |        |                      |         |
-|    3 |       |       |        |                      |         |
-|    4 |       |       |        |                      |         |
-|    5 |       |       |        |                      |         |
+|---:|---|---|---|---|---|
+| 1 | Sinh viên | LMS: mục To-do, bài tập mới | Danh sách bài và hạn nộp trên LMS | 5', mỗi sáng | Thông tin có cấu trúc, ít thay đổi |
+| 2 | Sinh viên | Phoenix: lịch học, thông báo lớp | Lịch học và thông báo trong ngày | 5', mỗi sáng | Chưa rõ Phoenix có xuất lịch ra ngoài được không |
+| 3 | Sinh viên | Các kênh Discord: #announcement, #general, #standup | Các tin dời hạn, đổi yêu cầu, lịch họp đột xuất | **10'**, mỗi sáng | **BOTTLENECK:** tin quan trọng lẫn giữa tin thảo luận, tâm lý sợ bỏ sót |
+| 4 | Sinh viên | Kết quả bước 1–3 | Lịch và deadline trong sổ hoặc app to-do | 5', mỗi sáng | Chép tay, có thể chép sai |
 
-**Tổng thời gian quy trình hiện tại:** **18 phút/bộ hồ sơ** (với hồ sơ khớp ngay) và phát sinh **2–3 ngày trễ hạn** (với 25% hồ sơ bị trả đi trả lại).
+Với một số môn, sinh viên còn phải kiểm thêm Outlook, Gmail hoặc Zalo (Problem Card #1 của Khoa: 4–5 nền tảng cho một việc). Các bước này chưa được bấm giờ.
+
+**Bottleneck chính:** Bước 3, lướt Discord để lọc tin dời hạn và đổi yêu cầu lẫn trong tin thảo luận, mất 10 phút mỗi sáng.
+
+**Tổng thời gian quy trình hiện tại:** **25 phút/ngày**, khoảng **125–150 phút/tuần** cho một sinh viên (số của Sơn). Dù vậy, thỉnh thoảng vẫn bỏ sót thay đổi lịch họp đột xuất hoặc deadline phụ.
 
 ---
 
@@ -223,13 +218,15 @@ Nếu API AI gặp sự cố gián đoạn hoặc bản scan hợp đồng quá 
 
 ### 4.3. Before / after
 
-| Chỉ số               | Trước | Sau (kỳ vọng) | Ghi chú |
-| -------------------- | ----: | ------------: | ------- |
-| Số bước              |       |               |         |
-| Tổng thời gian       |       |               |         |
-| Số bước thủ công     |       |               |         |
-| Bottleneck chính     |       |               |         |
-| Rủi ro mới phát sinh |       |               |         |
+Cột "Sau" theo hướng **Rule trước** đã kết luận ở 3.3 (chưa có bước AI). Đây là con số kỳ vọng, chưa đo. Khi mục 4.2 được viết lại cho bài A thì cập nhật cột này cho khớp.
+
+| Chỉ số | Trước | Sau (kỳ vọng) | Ghi chú |
+|---|---:|---:|---|
+| Số bước | 4 | 5 | 2 bước Rule chạy tự động: lịch LMS đồng bộ vào Google Calendar; tin ở kênh thông báo chính thức tự vào lịch. 3 bước người dùng: xem lịch tổng hợp, mở Phoenix, xem kênh thông báo Discord |
+| Tổng thời gian | 25'/ngày | khoảng 10'/ngày | Xem lịch tổng hợp 2' + mở Phoenix 5' + xem kênh thông báo Discord 3'; 2 bước Rule mất 0' |
+| Số bước thủ công | 4/4 | 3/5 | Không còn bước chép tay vào to-do |
+| Bottleneck chính | Lướt Discord lọc tin (10') | Mở Phoenix (5'), chưa có cách xuất lịch | Nếu Phoenix xuất được lịch thì bước này cũng thành Rule |
+| Rủi ro mới phát sinh | — | Bỏ sót tin dời hạn nằm ngoài kênh chính thức (thread, kênh thảo luận); lịch đồng bộ trễ (Zapier Free 15 phút/lần, lịch LMS có thể trễ vài giờ) | Kiểm bằng đếm log (giả định #4). Hạn trong ngày vẫn kiểm trực tiếp trên LMS |
 
 ---
 
