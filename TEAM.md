@@ -6,7 +6,7 @@
 
 - Tên nhóm: 4Squares
 - Candidate problem nhóm chọn (1 câu): Sinh viên mất khoảng 25 phút mỗi sáng mở LMS, Phoenix và lướt nhiều kênh Discord để không bỏ sót hạn nộp và thay đổi yêu cầu, nhưng vẫn có lúc sót.
-- Quyết định cuối (Go / Not Yet / No-Go): Chưa chốt (chờ hoàn thiện CP6)
+- Quyết định cuối (Go / Not Yet / No-Go): Go (phạm vi nhỏ): pilot giải pháp Rule trong 2 tuần trên 4 thành viên; chưa thêm bước AI
 
 ## Thành viên
 
@@ -26,12 +26,14 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 | Checkpoint                                 | Người chính        | Người hỗ trợ                              | Sản phẩm                                       |
 | ------------------------------------------ | ------------------ | ----------------------------------------- | ---------------------------------------------- |
 | CP3 — Hội tụ nhóm                          | Nguyễn Tuấn Dũng   | Nguyễn Hoàng Trung, Nguyễn Lê Đăng Khoa | Cluster, cây OST, bảng chấm điểm               |
-| CP4 — Kiểm chứng                           |                    |                                           | Assumption map, snapshot hoặc survey           |
-| CP4 — Research                             |                    |                                           | Bảng research có link                          |
-| CP5 — Quy trình trước/sau                  | Nguyễn Hoàng Trung |                                           | Quy trình + bảng before/after                  |
-| CP5 — Problem Statement v0                 | Nguyễn Hoàng Trung |                                           | Problem Statement v0                           |
-| CP6 — Mức can thiệp + Problem Statement v1 |                    | Nguyễn Hoàng Trung                        | Ma trận, AI Canvas, eval, Problem Statement v1 |
-| CP6 — Quyết định                           |                    |                                           | 4 rủi ro + Go/Not Yet/No-Go                    |
+| CP4 — Kiểm chứng                           | Trần Phạm Minh Sơn  | Nguyễn Lê Đăng Khoa                        | Assumption map, snapshot hoặc survey           |
+| CP4 — Research                             | Nguyễn Lê Đăng Khoa |                                            | Bảng research có link                          |
+| CP5 — Quy trình trước/sau                  | Nguyễn Lê Đăng Khoa | Trần Phạm Minh Sơn (số liệu), Nguyễn Hoàng Trung (bản đầu) | Quy trình + bảng before/after |
+| CP5 — Problem Statement v0                 | Nguyễn Lê Đăng Khoa | Nguyễn Hoàng Trung (bản đầu)               | Problem Statement v0                           |
+| CP6 — Mức can thiệp + Problem Statement v1 | Nguyễn Lê Đăng Khoa | Nguyễn Hoàng Trung (bản đầu)               | Ma trận, eval, Problem Statement v1            |
+| CP6 — Quyết định                           | Nguyễn Lê Đăng Khoa |                                            | 4 rủi ro + Go/Not Yet/No-Go                    |
+
+"Bản đầu" là bản viết cho bài đối chiếu hồ sơ thanh toán (commit `d02f50e`), đã được thay khi nhóm thống nhất giữ bài A.
 
 ## Cá nhân
 
@@ -41,15 +43,22 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 **Phần việc phụ trách:**
 
--
+- Nhóm trưởng: fork repo, mời thành viên, merge các nhánh vào `main`.
+- Dựng phần hội tụ CP3 (bảng pitch, cluster, cây OST).
+- Sau khi nhóm thống nhất giữ bài A: viết lại CP4–CP6 trong `group_report.md` và dọn `TEAM.md`.
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
--
+- Đưa 3 Problem Card (#4, #5, #6) vào bảng pitch; dựng bảng 2.1 (12 candidate), 2.2 (4 cluster), 2.3 (cây OST).
+- Merge 4 nhánh của nhóm; khôi phục báo cáo cá nhân của Dũng bị mất khi merge (conflict modify/delete).
+- Gộp `TEAM.md` về một bảng thành viên đủ 4 người, sắp đúng tiêu đề từng người.
+- Viết mục 3.1 (Assumption Map), 3.3 (research, link đã kiểm), 4.1–4.3 (quy trình trước/sau), 5 và 7 (Problem Statement v0, v1), 6 (mức can thiệp), 8 (4 rủi ro, quyết định) cho bài A.
+- Gỡ phần dữ liệu kiểm chứng của bài kế toán vì không khớp CP3 và không có minh chứng.
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
--
+- `group_report.md`: mục 2.1–2.3, 3.1, 3.3, 4, 5, 6, 7, 8.
+- Commit `755f29d` (bảng CP3), `dee6248` (khôi phục file của Dũng), `c124d07` (dọn TEAM.md, Assumption Map, research), `bf44b7d` (quy trình 4.1, 4.3).
 
 **Điều mình học được từ phần nhóm:**
 
@@ -101,6 +110,8 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 - `report/team/group_report.md`: Bảng 2.1 (Pitch candidate #10), Mục 2.2 & 2.3 (Cluster & Cây OST), Mục 4.1 & 4.2 (Sơ đồ quy trình Mermaid As-Is và To-Be), Mục 5 (Problem Statement v0) và Mục 7 (Problem Statement v1).
 - `report/individual/2A202603826_NguyenHoangTrung.md`: Toàn bộ báo cáo cá nhân của Nguyễn Hoàng Trung.
 - Các commit trên repo: `0c12ce6`, `d02f50e`, `18544e5`, `5a34a37`, `d40b1a7`.
+
+_Ghi chú của nhóm: mục 4.1, 4.2, 5, 7 nói ở trên là bản đầu viết cho bài đối chiếu hồ sơ thanh toán (commit `d02f50e`). Bản hiện tại trong `group_report.md` đã được viết lại cho bài A._
 
 **Điều mình học được từ phần nhóm:**
 

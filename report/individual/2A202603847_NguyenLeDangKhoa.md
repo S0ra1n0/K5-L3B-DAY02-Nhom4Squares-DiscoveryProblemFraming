@@ -145,18 +145,18 @@ HIỆN TẠI — [bổ sung]' / lần hỏi
 
 ## 4. Tôi đã tham gia phần nào (CP3 → CP7)
 
-| Hoạt động                  | Tôi đã làm gì?         | Kết quả / ảnh hưởng tới bài nhóm |
-| -------------------------- | ---------------------- | -------------------------------- |
-| Pitch Problem Card         |                        |                                  |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt:    |                                  |
-| Nhận phản biện             | Câu hỏi tôi nhận được: | Tôi đã sửa gì:                   |
-| Gom cluster / cây OST      |                        |                                  |
-| Chọn candidate problem     |                        |                                  |
-| Kiểm chứng / research      |                        |                                  |
-| Quy trình nhóm             |                        |                                  |
-| Problem Statement          |                        |                                  |
-| Mức can thiệp AI           |                        |                                  |
-| Quyết định                 |                        |                                  |
+| Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
+|---|---|---|
+| Pitch Problem Card | Đưa 3 card vào bảng pitch: #4 gom thông tin bài tập từ 4–5 nền tảng, #5 rà tiến độ task, #6 bạn bè hỏi lại nơi nộp/hạn | Card #4 cùng card #2 của Sơn thành candidate A, bài được nhóm chọn |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: chưa ghi nhận | — |
+| Nhận phản biện | Câu hỏi tôi nhận được: chưa ghi nhận | Tôi đã sửa gì: — |
+| Gom cluster / cây OST | Dựng bảng pitch 12 candidate, gom thành 4 cluster, vẽ cây OST và gạch 2 ý là solution đội lốt ("bot tổng hợp thông báo", "chatbot hỏi đáp môn học") | Thành mục 2.1–2.3 của báo cáo nhóm |
+| Chọn candidate problem | Cùng nhóm chọn candidate A (34/35); sau đó chốt giữ bài A khi phát hiện CP4–CP6 đang viết cho một bài khác | Cả báo cáo nhóm quay về một bài toán thống nhất |
+| Kiểm chứng / research | Viết Assumption Map 5 giả định; tìm 5 công cụ có sẵn (lịch LMS, lọc email, Zapier) và chỉ giữ link mở được | Kết luận "làm Rule trước", ảnh hưởng trực tiếp tới mức can thiệp |
+| Quy trình nhóm | Viết bảng quy trình hiện tại từ số liệu card #2 của Sơn, quy trình tương lai chỉ dùng Rule, bảng Before/After | Bottleneck rõ (lướt Discord 10'), kỳ vọng 25' → khoảng 10'/ngày |
+| Problem Statement | Viết v0 và v1 | v1 thu hẹp bottleneck theo research, thêm metric bỏ sót |
+| Mức can thiệp AI | So sánh 4 mức, chọn Rule cho giai đoạn 1, đặt điều kiện mới lên Workflow | Không thêm AI khi chưa có bằng chứng |
+| Quyết định | Chấm 4 rủi ro, chọn Go phạm vi nhỏ, đặt 3 ngưỡng dừng | Pilot Rule 2 tuần trên 4 thành viên |
 
 ---
 
@@ -166,10 +166,10 @@ HIỆN TẠI — [bổ sung]' / lần hỏi
 | ------------------------------ | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------- | --------------------------------------------------------------------- |
 | CP1 Scan                       | Chuẩn hóa 6 ý nháp của tôi thành Job Story, gắn lăng kính                             | Tách ý "quản lý task" thành các dòng có bước nghẽn khác nhau; chỉ ra dòng #1 lẫn giải pháp và các dòng thiếu số đo | Không có số liệu thật nên chỉ để trống các ô dấu hiệu           | Tự bổ sung số liệu từ trải nghiệm của mình                            |
 | CP2 Problem Card               | Dựng nháp 3 card và quy trình từ ý của tôi, sau đó đóng vai PM hoài nghi để phản biện | Chỉ ra card #3 là hệ quả của card #1, card #2 có thể chỉ cần No AI / Rule                                          | Bottleneck card #1 chỉ là phỏng đoán, chưa có số phút từng bước | [bổ sung: tự bấm giờ, xác nhận bước nghẽn, viết lại card theo ý mình] |
-| CP4 Research                   |                                                                                       |                                                                                                                    |                                                                 |                                                                       |
-| CP5 Quy trình                  |                                                                                       |                                                                                                                    |                                                                 |                                                                       |
-| CP5–6 Problem Statement        |                                                                                       |                                                                                                                    |                                                                 |                                                                       |
-| CP6 Mức can thiệp / quyết định |                                                                                       |                                                                                                                    |                                                                 |                                                                       |
+| CP4 Research | Nhờ AI (Claude) đối chiếu toàn bộ tài liệu nhóm, tìm công cụ có sẵn và mở kiểm từng link | Phát hiện CP4–CP6 đang viết cho bài khác với CP3; phát hiện link Kofax trả 404; tìm được 5 công cụ Rule/Workflow đúng bài A | 2 link Discord và 1 link Canvas không kiểm được (bị chặn hoặc lỗi kết nối) | Chỉ giữ link đã mở được; bỏ link chết |
+| CP5 Quy trình | Nhờ AI soạn bảng quy trình hiện tại và Before/After từ số liệu card #2 của Sơn | Tách đúng 4 bước, đánh dấu đúng bước nghẽn | Bản đầu đếm số bước sau không tính bước Rule, lệch cách đếm của bài mẫu | Sửa thành 2 bước Rule + 3 bước người |
+| CP5–6 Problem Statement | Nhờ AI soạn Problem Statement v0, v1 và chỉ ra lỗ hổng | Chỉ ra metric chỉ đo tốc độ, và baseline 25' mới là ước lượng của một người | Đáp án nháp ban đầu chọn Workflow có AI dù chưa có bằng chứng Rule không đủ | Chọn Rule cho giai đoạn 1; Workflow chỉ khi đếm log cho thấy Rule bỏ sót nhiều |
+| CP6 Mức can thiệp / quyết định | Nhờ AI chấm 4 rủi ro và đặt ngưỡng dừng | Gợi ý ngưỡng dừng đo được và điều kiện chuyển giai đoạn | Bản nháp đầu chấm Viability Cao vì giả định phải đọc tin nhắn của cả lớp | Khi chỉ dùng Rule, rủi ro này chỉ còn ở bước thêm bot nên hạ xuống Trung bình; BTC không đồng ý thì bỏ bước đó |
 
 ---
 
@@ -195,4 +195,9 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 ## 7. Tài liệu tham khảo
 
--
+- Tài liệu khóa học K5 L3 Day 02: README.md, CHECKPOINTS.md, RUBRIC.md, docs/01-worksheet.md, docs/02-deliverable-example.md.
+- Rob Fitzpatrick (2013), _The Mom Test_.
+- Teresa Torres (2021), _Continuous Discovery Habits_ — Opportunity Solution Tree.
+- Anthropic (2024), _Building Effective Agents_. https://www.anthropic.com/research/building-effective-agents
+- Google PAIR, _People + AI Guidebook_. https://pair.withgoogle.com/guidebook/
+- Các công cụ trong mục 3.3 của báo cáo nhóm (Moodle Calendar export, Gmail filters, Outlook rules, Zapier).
