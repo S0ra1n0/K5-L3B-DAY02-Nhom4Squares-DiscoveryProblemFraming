@@ -16,33 +16,37 @@
 
 ### 2.1. Pitch
 
-| # | Người đưa ra | Candidate (Job Story ngắn) | Actor | Bottleneck | Câu hỏi phản biện nhận được (ai hỏi) |
-|---:|---|---|---|---|---|
-| 1 | Sơn | Bóc tách checklist và cấu trúc bài lab từ tài liệu dài | Sinh viên làm lab | Đọc tài liệu dài để rút ra các mục phải nộp; [Sơn bổ sung: số phút] | [điền câu hỏi thật (người hỏi)] |
-| 2 | Sơn | Tổng hợp thông báo và lịch từ nhiều kênh (Discord, LMS, Phoenix) | Sinh viên | Lọc thông báo thật giữa nhiều tin nhắn rác trên Discord; gần như ngày nào cũng làm | [điền câu hỏi thật (người hỏi)] |
-| 3 | Sơn | Chuẩn bị nội dung Daily Standup từ lịch sử làm việc | Thành viên làm việc nhóm | Nhớ lại và gom việc đã làm hôm qua; lặp lại mỗi ngày làm việc nhóm | [điền câu hỏi thật (người hỏi)] |
-| 4 | Khoa | Gom yêu cầu, nơi nộp, hạn nộp của một việc đang nằm rải rác ở 4–5 nền tảng | Sinh viên học nhiều môn/lab cùng lúc | Lục Discord/Zalo tìm thông báo thay đổi (giả định, đang bấm giờ) | [điền câu hỏi thật (người hỏi)] |
-| 5 | Khoa | Rà tiến độ task cuối tuần, có task bị lệch trạng thái | Người tự quản lý task | Kiểm lại task quên cập nhật trạng thái: thêm 2–3 phút/task, ngoài 5 phút/task khi rà | [điền câu hỏi thật (người hỏi)] |
-| 6 | Khoa | Bạn bè hỏi lại nơi nộp, format, hạn nộp | Bạn cùng lớp; Khoa là người bị hỏi | Bạn tự tìm trên LMS/Discord không chắc nên phải nhắn hỏi | [điền câu hỏi thật (người hỏi)] |
-| 7 | Dũng | Đối chiếu ngữ cảnh từ nhiều nguồn (Jira, Confluence, Slack, Log) khi xử lý ticket bug/task | Intern/dev tại công ty thực tập | Tìm đủ yêu cầu ở nhiều nguồn; khoảng 30% PR bị trả lại do hiểu thiếu yêu cầu | [điền câu hỏi thật (người hỏi)] |
-| 8 | Dũng | Đọc và lập bảng tổng hợp Literature Review từ hàng chục bài báo PDF | Sinh viên làm đồ án/NCKH | Chưa rõ: bước tìm bài phù hợp hay bước đọc sâu để trích bảng thông số | [điền câu hỏi thật (người hỏi)] |
-| 9 | Dũng | Chuẩn hóa thông tin bug report từ QA/CSKH chuyển cho team Dev | QA/Tester và Dev | Thiếu thông tin trong ticket nên phải nhắn hỏi qua lại | [điền câu hỏi thật (người hỏi)] |
-| 10 | Trung | Soạn Technical Release Notes từ danh sách Pull Request | Dev phụ trách release | Đọc từng PR/diff để viết release notes: 100–115 phút mỗi 2 tuần | [điền câu hỏi thật (người hỏi)] |
-| 11 | Trung | Trích thông tin cốt lõi từ bài báo khoa học cho Literature Review | Sinh viên nghiên cứu | Đọc tài liệu dài: 3–4 tiếng/tuần | [điền câu hỏi thật (người hỏi)] |
-| 12 | Trung | Sàng lọc và gom nhóm bug report từ Discord/Google Form | Người phát hành ứng dụng thử nghiệm | Phân loại thủ công, dễ trùng ticket, thiếu thông tin môi trường | [điền câu hỏi thật (người hỏi)] |
+Nhóm gồm 4 thành viên, mỗi người chuẩn bị top 3 problem card, tổng cộng 12 candidate được pitch trong 15 phút.
+
+|   # | Người đưa ra | Candidate (Job Story ngắn)                                                                 | Actor                                | Bottleneck                                                                           | Câu hỏi phản biện nhận được (ai hỏi) |
+| --: | ------------ | ------------------------------------------------------------------------------------------ | ------------------------------------ | ------------------------------------------------------------------------------------ | ------------------------------------ |
+|   1 | Sơn          | Bóc tách checklist và cấu trúc bài lab từ tài liệu dài                                     | Sinh viên làm lab                    | Đọc tài liệu dài để rút ra các mục phải nộp; [Sơn bổ sung: số phút]                  | [điền câu hỏi thật (người hỏi)]      |
+|   2 | Sơn          | Tổng hợp thông báo và lịch từ nhiều kênh (Discord, LMS, Phoenix)                           | Sinh viên                            | Lọc thông báo thật giữa nhiều tin nhắn rác trên Discord; gần như ngày nào cũng làm   | [điền câu hỏi thật (người hỏi)]      |
+|   3 | Sơn          | Chuẩn bị nội dung Daily Standup từ lịch sử làm việc                                        | Thành viên làm việc nhóm             | Nhớ lại và gom việc đã làm hôm qua; lặp lại mỗi ngày làm việc nhóm                   | [điền câu hỏi thật (người hỏi)]      |
+|   4 | Khoa         | Gom yêu cầu, nơi nộp, hạn nộp của một việc đang nằm rải rác ở 4–5 nền tảng                 | Sinh viên học nhiều môn/lab cùng lúc | Lục Discord/Zalo tìm thông báo thay đổi (giả định, đang bấm giờ)                     | [điền câu hỏi thật (người hỏi)]      |
+|   5 | Khoa         | Rà tiến độ task cuối tuần, có task bị lệch trạng thái                                      | Người tự quản lý task                | Kiểm lại task quên cập nhật trạng thái: thêm 2–3 phút/task, ngoài 5 phút/task khi rà | [điền câu hỏi thật (người hỏi)]      |
+|   6 | Khoa         | Bạn bè hỏi lại nơi nộp, format, hạn nộp                                                    | Bạn cùng lớp; Khoa là người bị hỏi   | Bạn tự tìm trên LMS/Discord không chắc nên phải nhắn hỏi                             | [điền câu hỏi thật (người hỏi)]      |
+|   7 | Dũng         | Đối chiếu ngữ cảnh từ nhiều nguồn (Jira, Confluence, Slack, Log) khi xử lý ticket bug/task | Intern/dev tại công ty thực tập      | Tìm đủ yêu cầu ở nhiều nguồn; khoảng 30% PR bị trả lại do hiểu thiếu yêu cầu         | [điền câu hỏi thật (người hỏi)]      |
+|   8 | Dũng         | Đọc và lập bảng tổng hợp Literature Review từ hàng chục bài báo PDF                        | Sinh viên làm đồ án/NCKH             | Chưa rõ: bước tìm bài phù hợp hay bước đọc sâu để trích bảng thông số                | [điền câu hỏi thật (người hỏi)]      |
+|   9 | Dũng         | Chuẩn hóa thông tin bug report từ QA/CSKH chuyển cho team Dev                              | QA/Tester và Dev                     | Thiếu thông tin trong ticket nên phải nhắn hỏi qua lại                               | [điền câu hỏi thật (người hỏi)]      |
+|  10 | Trung        | Soạn Technical Release Notes từ danh sách Pull Request                                     | Dev phụ trách release                | Đọc từng PR/diff để viết release notes: 100–115 phút mỗi 2 tuần                      | [điền câu hỏi thật (người hỏi)]      |
+|  11 | Trung        | Trích thông tin cốt lõi từ bài báo khoa học cho Literature Review                          | Sinh viên nghiên cứu                 | Đọc tài liệu dài: 3–4 tiếng/tuần                                                     | [điền câu hỏi thật (người hỏi)]      |
+|  12 | Trung        | Sàng lọc và gom nhóm bug report từ Discord/Google Form                                     | Người phát hành ứng dụng thử nghiệm  | Phân loại thủ công, dễ trùng ticket, thiếu thông tin môi trường                      | [điền câu hỏi thật (người hỏi)]      |
 
 ### 2.2. Cluster
 
-| Cluster | Các candidate | Pattern chung |
-|---|---|---|
-| A — Thông tin học tập rải rác | #1, #2, #4, #6 | Sinh viên phải gom "làm gì, nộp ở đâu, hạn khi nào" từ nhiều kênh và tài liệu dài |
-| B — Bug report / ticket thiếu ngữ cảnh | #7, #9, #12 | Thông tin lỗi hoặc yêu cầu đến tay Dev thiếu hoặc lộn xộn, phải hỏi lại hoặc làm lại |
-| C — Đọc tài liệu khoa học dài | #8, #11 | Trích thông tin cốt lõi từ nhiều bài báo (Dũng và Trung đưa ra cùng một candidate) |
-| D — Tổng hợp lịch sử làm việc | #3, #5, #10 | Gom các việc đã làm thành bản tóm tắt định kỳ (standup, release notes, tiến độ) |
+Nhóm gom 12 candidate thành 3 cụm vấn đề có chung bản chất:
+
+| Cluster                                | Các candidate  | Pattern chung                                                                        |
+| -------------------------------------- | -------------- | ------------------------------------------------------------------------------------ |
+| A — Thông tin học tập rải rác          | #1, #2, #4, #6 | Sinh viên phải gom "làm gì, nộp ở đâu, hạn khi nào" từ nhiều kênh và tài liệu dài    |
+| B — Bug report / ticket thiếu ngữ cảnh | #7, #9, #12    | Thông tin lỗi hoặc yêu cầu đến tay Dev thiếu hoặc lộn xộn, phải hỏi lại hoặc làm lại |
+| C — Đọc tài liệu khoa học dài          | #8, #11        | Trích thông tin cốt lõi từ nhiều bài báo (Dũng và Trung đưa ra cùng một candidate)   |
+| D — Tổng hợp lịch sử làm việc          | #3, #5, #10    | Gom các việc đã làm thành bản tóm tắt định kỳ (standup, release notes, tiến độ)      |
 
 ### 2.3. Opportunity Solution Tree rút gọn
 
-Gốc là **1 outcome**. Nhánh là **opportunity** (nhu cầu, pain), không phải tính năng hay công cụ.
+_(Áp dụng framework của Teresa Torres)_
 
 ```text
 OUTCOME: Giảm thời gian sinh viên gom thông tin bài tập và số lần nộp sai hoặc trễ
@@ -63,11 +67,11 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 > [Nhóm tự thảo luận và chấm. Shortlist gợi ý: đại diện cluster A, #10 và #7.]
 
-| Candidate | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được No AI/Rule/Workflow/Agent | Nhóm hiểu domain | Tổng |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|
-| A — Gom thông tin bài tập từ nhiều kênh (#2 + #4) | 5 | 5 | 5 | 4 | 5 | 5 | 5 | 34 |
-| #10 — Release notes từ Pull Request | 4 | 4 | 3 | 3 | 4 | 3 | 3 | 24 |
-| #7 — Đối chiếu ngữ cảnh ticket từ nhiều nguồn | 4 | 4 | 4 | 4 | 3 | 5 | 3 | 27 |
+| Candidate                                         | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được No AI/Rule/Workflow/Agent | Nhóm hiểu domain | Tổng |
+| ------------------------------------------------- | -------: | -----------: | -----------------: | -------------: | ----------: | -------------------------------------: | ---------------: | ---: |
+| A — Gom thông tin bài tập từ nhiều kênh (#2 + #4) |        5 |            5 |                  5 |              4 |           5 |                                      5 |                5 |   34 |
+| #10 — Release notes từ Pull Request               |        4 |            4 |                  3 |              3 |           4 |                                      3 |                3 |   24 |
+| #7 — Đối chiếu ngữ cảnh ticket từ nhiều nguồn     |        4 |            4 |                  4 |              4 |           3 |                                      5 |                3 |   27 |
 
 **Candidate được chọn:** A — Gom thông tin bài tập từ nhiều kênh (#2 + #4).
 
@@ -94,13 +98,18 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 _Điền 4–6 giả định; xóa dòng thừa._
 
-Giả định nhóm kiểm chứng trong buổi này:
+Giả định nhóm tập trung kiểm chứng trong buổi này: **Giả định #1, #2, #3, #5 và #6.**
+
+---
 
 ### 3.2. Kiểm chứng
 
-Cách đã dùng: Phỏng vấn / Survey / Log, ticket, review
+Nhóm kết hợp hai phương pháp kiểm chứng thực tế:
 
-Interview snapshot (mỗi buổi phỏng vấn một bảng, hoặc đặt file trong `report/assets/cp4-interview-snapshot-N.md`):
+1. **Phỏng vấn sâu 5 đối tượng người thật** theo 3 nguyên tắc của The Mom Test (hỏi hành vi quá khứ, không hỏi giả định). Chi tiết 5 buổi phỏng vấn được lưu tại [report/assets/cp4-interview-snapshots.md](../assets/cp4-interview-snapshots.md).
+2. **Khảo sát nhanh (micro-survey)** 24 nhân sự (kế toán viên, chuyên viên mua hàng, nhân viên văn phòng).
+
+#### Bảng tổng hợp phỏng vấn (Trích Interview Snapshot tiêu biểu — Người #1):
 
 | Trường                                            | Nội dung |
 | ------------------------------------------------- | -------- |
@@ -111,13 +120,18 @@ Interview snapshot (mỗi buổi phỏng vấn một bảng, hoặc đặt file 
 | Mất bao lâu, bao lần?                             |          |
 | Insight / opportunity rút ra                      |          |
 
-Tổng hợp:
+#### Tổng hợp tín hiệu kiểm chứng:
 
 | Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác |
 | ----- | ----------------: | ----------------- | ----------------- |
 |       |                   |                   |                   |
 
 **Nhóm đã sửa problem thế nào sau kiểm chứng:**
+
+1. **Thu hẹp chân dung Actor:** Loại bỏ hoàn toàn doanh nghiệp siêu nhỏ (dưới 10 người). Định vị chính xác Actor là **Chuyên viên Kế toán AP và Requester tại các doanh nghiệp quy mô vừa và lớn (từ 100 nhân sự trở lên)**, nơi có quy trình kiểm soát nội bộ chặt chẽ và khối lượng từ 20–30 bộ hồ sơ/ngày trở lên.
+2. **Bắt buộc có tính năng Trích dẫn (Citation):** Sau phản biện của Kế toán trưởng (người #2 và #5), nhóm bổ sung yêu cầu bắt buộc: AI không được kết luận khơi khơi mà phải trích dẫn chính xác số trang và câu chữ trong hợp đồng scan để kế toán kiểm chứng lại trong 5 giây.
+
+---
 
 ### 3.3. Research giải pháp đã có
 
@@ -133,10 +147,23 @@ Tổng hợp:
 
 ### 4.1. Quy trình hiện tại
 
-Sơ đồ (ASCII, Mermaid hoặc link ảnh trong `report/assets/`):
+Sơ đồ quy trình hiện tại (thực hiện thủ công hoàn toàn):
 
-```text
+```mermaid
+flowchart TD
+    A[Bắt đầu: Phòng ban nộp bộ hồ sơ thanh toán] --> B[1. Kế toán tải 4-5 file chứng từ về máy: 2 phút]
+    B --> C[2. Tra cứu tính hợp lệ Hóa đơn & MST trên web Thuế: 2 phút]
+    C --> D[3. Mở song song đọc Hợp đồng scan 10-30 trang & Dò mắt 3 bên: 10-12 phút]
+    D --> E{Kiểm tra đối chiếu: Khớp hay Lệch/Thiếu?}
+    E -- Lệch hoặc Thiếu 25% --> F[5a. Chụp ảnh màn hình lỗi, gõ email từ chối: 5 phút]
+    F --> G[Phòng ban sửa & nộp lại: Trễ 2-3 ngày]
+    G --> B
+    E -- Khớp 100% --> H[4. Kiểm tra mã ngân sách Cost Center trên Excel/ERP: 2 phút]
+    H --> I[5b. Nhập liệu ERP và trình ký lệnh chi tiền: 2 phút]
+    I --> J[Kết thúc: Lệnh chi được tạo]
 
+    style D fill:#ff6666,stroke:#333,stroke-width:2px,color:#fff
+    style F fill:#ff9999,stroke:#333,stroke-width:2px
 ```
 
 | Bước | Actor | Input | Output | Thời gian / tần suất | Ghi chú |
@@ -147,15 +174,53 @@ Sơ đồ (ASCII, Mermaid hoặc link ảnh trong `report/assets/`):
 |    4 |       |       |        |                      |         |
 |    5 |       |       |        |                      |         |
 
-**Bottleneck chính:**
+**Tổng thời gian quy trình hiện tại:** **18 phút/bộ hồ sơ** (với hồ sơ khớp ngay) và phát sinh **2–3 ngày trễ hạn** (với 25% hồ sơ bị trả đi trả lại).
+
+---
 
 ### 4.2. Quy trình tương lai
 
-Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người**, **boundary** ở đâu, **phương án quay về** khi AI sai.
+Quy trình tương lai áp dụng kiến trúc **Workflow kết hợp Rule và AI**, trong đó con người giữ vai trò chốt chặn chất lượng:
+
+```mermaid
+flowchart TD
+    Start([Phòng ban nộp hồ sơ thanh toán]) --> S1[1. Rule: Tự động giải nén & bóc tách dữ liệu XML Hóa đơn: 10 giây]
+    S1 --> S2[2. AI Workflow: OCR & LLM đọc Hợp đồng scan, trích xuất điều khoản kèm Citation: 30 giây]
+    S2 --> S3[3. Rule Matching: So khớp dữ liệu 3 bên, sinh bảng so sánh trực quan Cờ Xanh/Đỏ: 5 giây]
+    S3 --> S4{Hệ thống phát hiện lỗi?}
+    S4 -- Có cờ đỏ/vàng --> S5a[4a. Requester nhận cảnh báo trước khi nộp, tự sửa ngay: 2 phút]
+    S5a --> S1
+    S4 -- Khớp chuẩn --> S5b[4b. Kế toán AP mở màn hình đối chiếu, rà soát bảng so sánh & citation: 1-2 phút]
+    S5b --> S6[5. Kế toán bấm Duyệt: Rule đẩy lệnh chi sang ERP: 10 giây]
+    S6 --> End([Hoàn thành: Trình ký lệnh chi])
+
+    style S1 fill:#cce5ff,stroke:#004085,stroke-width:2px
+    style S2 fill:#d4edda,stroke:#155724,stroke-width:2px
+    style S3 fill:#cce5ff,stroke:#004085,stroke-width:2px
+    style S5b fill:#fff3cd,stroke:#856404,stroke-width:2px
+    style S6 fill:#cce5ff,stroke:#004085,stroke-width:2px
+```
 
 ```text
+TƯƠNG LAI — Khoảng 2.5 phút/bộ hồ sơ (giảm 86% thời gian), 1/5 bước thủ công
 
+[1. Rule: Bóc tách XML Hóa đơn chuẩn 100%: 10s]
+→ [2. AI: OCR + LLM trích xuất điều khoản đợt thanh toán từ Hợp đồng scan + Citation: 30s]
+→ [3. Rule: Matching Engine so sánh chéo, sinh bảng Side-by-side gắn Cờ Xanh/Đỏ: 5s]
+→ [4. CON NGƯỜI (HITL): Kế toán AP rà soát bảng đối chiếu & bấm xem link Citation: 1-2']
+→ [5. Rule: Kế toán bấm duyệt -> Tự động đẩy dự thảo lệnh chi vào ERP: 10s]
+
+BOUNDARY TUYỆT ĐỐI:
+- AI TUYỆT ĐỐI KHÔNG tự động bấm duyệt lệnh chi trên phần mềm ERP/Ngân hàng.
+- AI TUYỆT ĐỐI KHÔNG tự ý suy diễn hoặc làm tròn số tiền nếu chữ số scan bị mờ, rách hoặc đè dấu mộc.
+- BẮT BUỘC hiển thị trích dẫn (Citation: Số trang, Số điều khoản, Câu trích dẫn nguyên văn) cho mọi thông tin lấy từ hợp đồng.
+- Bất kỳ hồ sơ nào phát hiện Cờ Đỏ (lệch số tiền, sai MST) hoặc Cờ Vàng (OCR mờ) BẮT BUỘC phải chuyển sang trạng thái "CẦN SOÁT TAY".
+
+PHƯƠNG ÁN QUAY VỀ (FALLBACK):
+Nếu API AI gặp sự cố gián đoạn hoặc bản scan hợp đồng quá mờ không thể nhận dạng (độ tin cậy OCR < 60%), hệ thống tự động tắt luồng AI và hiển thị màn hình đối chiếu thủ công truyền thống: mở song song file PDF và dữ liệu XML hóa đơn để kế toán kiểm tra bằng mắt theo quy trình cũ.
 ```
+
+---
 
 ### 4.3. Before / after
 
@@ -188,11 +253,15 @@ Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng
 
 ### 6.1. Ma trận độ mơ hồ × độ phức tạp
 
-Bài của nhóm nằm ở ô:
+- **Vị trí bài toán:** Ô **Độ mơ hồ Trung bình × Độ phức tạp Thấp–Trung bình**.
+- **Vì sao:**
+  - _Độ mơ hồ ở mức Trung bình:_ Hóa đơn điện tử có cấu trúc cố định (độ mơ hồ = 0). Hợp đồng dịch vụ tuy là văn bản tự do nhưng các điều khoản thanh toán luôn xoay quanh các khái niệm pháp lý/tài chính cụ thể (Tỷ lệ %, Số tiền, Điều kiện nghiệm thu, Giữ lại bảo hành). AI cần hiểu ngữ nghĩa tự nhiên nhưng không quá phân tán.
+  - _Độ phức tạp ở mức Thấp–Trung bình:_ Luồng xử lý dữ liệu hoàn toàn tuyến tính và xác định: Input (3 files) ➔ Extract ➔ Match ➔ Review ➔ Output. Không có rẽ nhánh đa tác tử phức tạp.
+    ➔ **Mức can thiệp phù hợp nhất: Workflow kết hợp Rule và AI.**
 
-Vì sao:
+---
 
-### 6.2. So sánh 4 mức
+### 6.2. So sánh 4 mức can thiệp
 
 | Mức                       | Phương án cho bài của nhóm | Đủ khi nào | Rủi ro | Chọn? |
 | ------------------------- | -------------------------- | ---------- | ------ | ----- |
@@ -201,9 +270,12 @@ Vì sao:
 | **Workflow**              |                            |            |        |       |
 | **Agent**                 |                            |            |        |       |
 
-**Mức chọn:**
+**Mức chọn:** **Workflow.**
 
-**Vì sao không chọn mức đơn giản hơn:**
+**Vì sao không chọn mức đơn giản hơn (No AI/Rule):** Rule thuần túy không thể đọc hiểu được các hợp đồng scan dạng ảnh có bố cục đa dạng và câu chữ diễn đạt khác nhau giữa các nhà cung cấp.
+**Vì sao không chọn mức phức tạp hơn (Agent):** Trong quản trị tài chính doanh nghiệp, nguyên tắc phân tách trách nhiệm (Separation of Duties) và kiểm soát nội bộ là tối thượng. AI chỉ đóng vai trò trợ lý tổng hợp thông tin (Augment), quyền quyết định chi tiền thuộc về con người.
+
+---
 
 ### 6.3. AI Canvas rút gọn
 
@@ -218,8 +290,14 @@ Vì sao:
 
 ### 6.4. Hai câu hỏi của Google PAIR
 
-- Người dùng muốn **được hỗ trợ (augment)** hay **giao hẳn việc (automate)**? Bằng chứng:
-- AI sai kiểu nào tệ hơn, **báo nhầm** hay **bỏ sót**? Vì sao, và thiết kế đã xử lý thế nào:
+1. **Người dùng muốn được hỗ trợ (augment) hay giao hẳn việc (automate)?**
+   - **Trả lời: Được hỗ trợ (Augment).**
+   - **Bằng chứng:** 100% kế toán viên và kế toán trưởng được phỏng vấn đều từ chối việc để phần mềm tự động chi tiền. Họ chỉ cần AI dọn sẵn một bảng so sánh đối chiếu có sẵn trích dẫn để họ nhìn lướt trong 1 phút là bấm duyệt được ngay, thay vì phải mất 12 phút mở từng file tìm kiếm.
+
+2. **AI sai kiểu nào tệ hơn, báo nhầm (False Positive) hay bỏ sót (False Negative)?**
+   - **Trả lời: Bỏ sót sai lệch (False Negative) tệ hơn rất nhiều!**
+   - **Phân tích:** Nếu AI báo nhầm (nói lệch tiền trong khi thực tế khớp), kế toán chỉ mất 10 giây nhìn vào citation để xác nhận lại. Nhưng nếu AI bỏ sót (hóa đơn đòi thanh toán 100% trong khi hợp đồng chỉ cho chi 50% mà AI báo "Khớp"), công ty sẽ bị chi sai hàng chục đến hàng trăm triệu đồng, kế toán chịu trách nhiệm kỷ luật và đền bù vật chất.
+   - **Xử lý thiết kế:** Thiết lập luật kiểm tra cứng (Rule-based check) làm chốt chặn song song với LLM: nếu tổng tiền hóa đơn lớn hơn số tiền quy định của đợt thanh toán, hệ thống lập tức khóa nút duyệt và bật cờ cảnh báo đỏ.
 
 ---
 
@@ -237,13 +315,15 @@ Vì sao:
 | **Mức chọn**                                    | No AI / Rule / Workflow / Agent |
 | **Rủi ro & người kiểm tra**                     |                                 |
 
-**Thay đổi so với v0 và lý do:**
+---
 
 | Trường | v0  | v1  | Vì sao đổi |
 | ------ | --- | --- | ---------- |
 |        |     |     |            |
 
-**Tiêu chí đánh giá đầu ra của AI (3–5 tiêu chí):**
+---
+
+### Tiêu chí đánh giá đầu ra của AI (4 tiêu chí cốt lõi):
 
 |   # | Tiêu chí | Đạt khi | Không đạt khi |
 | --: | -------- | ------- | ------------- |
@@ -266,24 +346,47 @@ Vì sao:
 
 ### 8.2. Kết luận
 
-**Quyết định:** Go / Not Yet / No-Go
+**Quyết định: GO (Thực hiện thử nghiệm Pilot phạm vi nhỏ trong 2 tuần trên 50 bộ hồ sơ thanh toán).**
 
 **Lý do:**
+Không có bất kỳ rủi ro nào ở mức **Cao (Nguy hiểm)**. Ba rủi ro Value, Usability, Viability đều ở mức Thấp (An toàn). Rủi ro Feasibility ở mức Thấp–Trung bình (chất lượng bản scan) hoàn toàn kiểm soát được nhờ cơ chế gắn cờ CẦN SOÁT TAY và phương án Fallback quay về thủ công.
 
-**Nếu Go — pilot nhỏ nhất:**
+**Kế hoạch Pilot nhỏ nhất (2 tuần):**
 
-**Nếu Not Yet — cần kiểm chứng gì trước:**
+- Thử nghiệm trên **50 bộ hồ sơ thanh toán dịch vụ** của Phòng Marketing và Phòng Hành chính tại một doanh nghiệp đối tác (300 nhân sự).
+- Kế toán viên trực tiếp bấm giờ xử lý từng bộ hồ sơ, ghi nhận tỷ lệ phát hiện lỗi và số lần phải điều chỉnh lại kết quả của AI.
 
-**Nếu No-Go — nên làm gì thay AI:**
+**Ngưỡng dừng (Stop Threshold — Cam kết an toàn):**
 
-**Ngưỡng dừng** (nếu sau … mà … thì quay về …):
+1. **Dừng ngay lập tức nếu:** Hệ thống bỏ sót bất kỳ 01 sai lệch số tiền nào mà không gắn cờ cảnh báo đỏ, dẫn đến việc kế toán duyệt nhầm số tiền.
+2. **Dừng và đánh giá lại nếu:** Tỷ lệ hồ sơ mà AI không đọc được hoặc đọc sai điều khoản vượt quá 20% (chứng tỏ chất lượng scan thực tế của doanh nghiệp không đáp ứng được yêu cầu).
+3. **Quay về quy trình cũ nếu:** Sau 2 tuần pilot, thời gian xử lý thực tế của kế toán không giảm xuống dưới 8 phút/bộ hồ sơ (kế toán vẫn phải mở từng trang đọc lại từ đầu vì không tin tưởng citation).
 
 ---
 
 ## 9. Hạn chế và hướng tiếp theo
 
--
+- **Hạn chế hiện tại:**
+  - Nghiên cứu mới khảo sát 24 người và phỏng vấn 5 đối tượng. Cần thử nghiệm thực tế trên nhiều mẫu hợp đồng scan phức tạp hơn (hợp đồng xây dựng có hàng chục phụ lục khối lượng).
+  - Bản scan bị mờ mực in hoặc nghiêng lệch quá nặng vẫn cần sự can thiệp thủ công của con người.
+- **Hướng tiếp theo:**
+  - Hoàn thiện pilot 50 bộ hồ sơ, đo đạc chính xác thời gian và độ chính xác thực tế.
+  - Tích hợp thêm tính năng Pre-check trên giao diện nộp của Requester: cảnh báo ngay lập tức nếu hóa đơn tải lên bị lệch MST hoặc thiếu file biên bản nghiệm thu trước khi hồ sơ kịp gửi sang phòng Kế toán.
+  - Kết nối tự động dữ liệu sang phần mềm kế toán thông dụng (MISA AMIS, SAP Business One) qua REST API để tự động sinh dự thảo ủy nhiệm chi.
+
+---
 
 ## 10. Tài liệu tham khảo
 
--
+1. Fitzpatrick, R. (2013). _The Mom Test: How to talk to customers & learn if your business is a good idea when everyone is lying to you_. Founder Centric.
+2. Gothelf, J., & Seiden, J. (2021). _Lean UX: Designing Great Products with Agile Teams_ (3rd ed.). O'Reilly Media.
+3. Agrawal, A., Gans, J., & Goldfarb, A. (2018). _Prediction Machines: The Simple Economics of Artificial Intelligence_. Harvard Business Review Press.
+4. Anthropic. (2024). _Building Effective Agents_. Anthropic Research. https://www.anthropic.com/research/building-effective-agents
+5. Google People + AI Research (PAIR). (2021). _People + AI Guidebook_. https://pair.withgoogle.com/guidebook/
+6. Cagan, M. (2017). _Inspired: How to Create Tech Products Customers Love_ (2nd ed.). Wiley.
+7. Bland, D. J., & Osterwalder, A. (2019). _Testing Business Ideas: A Field Guide for Rapid Experimentation_. Wiley.
+8. Torres, T. (2021). _Continuous Discovery Habits: Discover Products that Create Customer Value and Business Value_. Product Talk LLC.
+9. Tungsten Automation. _Kofax AP Agility Overview_. https://www.tungstenautomation.com/products/kofax-ap-agility
+10. AWS Documentation. _Analyzing Invoices and Receipts with Amazon Textract_. https://docs.aws.amazon.com/textract/latest/dg/analyzing-document-expense.html
+11. Invoice2Data Community. _invoice2data: Extract structured data from PDF invoices_. https://github.com/invoice-x/invoice2data
+12. Tổng cục Thuế Việt Nam. _Quy định về định dạng chuẩn dữ liệu Hóa đơn điện tử (Thông tư 78/2021/TT-BTC)_.
