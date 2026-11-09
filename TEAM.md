@@ -1,4 +1,4 @@
-# Team
+9# Team
 
 > Điền file này trên repo chung do nhóm trưởng fork. Nhóm điền phần **Thông tin nhóm** và **Thành viên**. Mỗi người tự điền phần của mình trong **Cá nhân**. Không copy file này sang repo khác.
 
@@ -10,12 +10,12 @@
 
 ## Thành viên
 
-| STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
-| --: | --------- | ---- | ------------------ | ---------------- |
-|   1 |           |      |                    |                  |
-|   2 |           |      |                    |                  |
-|   3 |           |      |                    |                  |
-|   4 |           |      |                    |                  |
+| STT | Họ và tên                 | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
+| --: | ---------                 | ---- | ------------------ | ---------------- |
+|   1 |                           |      |                    |                  |
+|   2 |Nguyễn Tuấn Dũng           |2A202603859     |Thành viên                    |DungNguyen74                  |
+|   3 |                           |      |                    |                  |
+|   4 |                           |      |                    |                  |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
 
