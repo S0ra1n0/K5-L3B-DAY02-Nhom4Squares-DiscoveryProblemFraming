@@ -23,7 +23,7 @@ Nhóm gồm 4 thành viên, mỗi người chuẩn bị top 3 problem card, tổ
 | 1 | Sơn | Bóc tách checklist và cấu trúc bài lab từ tài liệu dài | Sinh viên làm lab | Đối chiếu 4–5 file để tự lập checklist: 15–20' (tổng 45–60' đầu giờ lab) | "Nếu bài lab và Rubric thay đổi cấu trúc mỗi buổi, làm sao đảm bảo AI không bỏ sót tiêu chí quan trọng khiến sinh viên bị trừ điểm?" (Dũng) |
 | 2 | Sơn | Tổng hợp thông báo và lịch từ nhiều kênh (Discord, LMS, Phoenix) | Sinh viên | Lọc thông báo thật giữa nhiều tin nhắn trên Discord: 10'/ngày (tổng 25'/ngày) | "Nếu không dùng AI mà chỉ cài rule tự gửi thông báo trên Google Calendar/Slack hoặc bắt điền form cố định thì đã giải quyết được 80% chưa?" (Sơn không ghi người hỏi) |
 | 3 | Sơn | Chuẩn bị nội dung Daily Standup từ lịch sử làm việc | Thành viên làm việc nhóm | Rà commit, file đã sửa để soạn 3 dòng: 10' | Chưa ghi nhận |
-| 4 | Khoa | Gom yêu cầu, nơi nộp, hạn nộp của một việc đang nằm rải rác ở 4–5 nền tảng | Sinh viên học nhiều môn/lab cùng lúc | Lục Discord/Zalo tìm thông báo thay đổi (giả định, chưa bấm giờ) | Chưa ghi nhận |
+| 4 | Khoa | Gom yêu cầu, nơi nộp, hạn nộp của một việc đang nằm rải rác ở 4–5 nền tảng | Sinh viên học nhiều môn/lab cùng lúc | Lục Discord/Zalo tìm thông báo thay đổi: khoảng 10'/việc (tổng khoảng 25'/việc; ước lượng, chưa bấm giờ) | Chưa ghi nhận |
 | 5 | Khoa | Rà tiến độ task cuối tuần, có task bị lệch trạng thái | Người tự quản lý task | Kiểm lại task quên cập nhật trạng thái: thêm 2–3 phút/task, ngoài 5 phút/task khi rà | Chưa ghi nhận |
 | 6 | Khoa | Bạn bè hỏi lại nơi nộp, format, hạn nộp | Bạn cùng lớp; Khoa là người bị hỏi | Bạn tự tìm trên LMS/Discord không chắc nên phải nhắn hỏi | Chưa ghi nhận |
 | 7 | Dũng | Đối chiếu ngữ cảnh từ nhiều nguồn (Jira, Confluence, Slack, Log) khi xử lý ticket bug/task | Intern/dev tại công ty thực tập | Tìm đủ yêu cầu ở nhiều nguồn: 30–40'/ticket; khoảng 30% PR bị trả lại do hiểu thiếu yêu cầu | "Nếu AI tóm tắt yêu cầu từ Slack và Confluence, bạn có dám tin hoàn toàn để code luôn mà không mở link gốc đọc lại không?" (Sơn); rủi ro tạo thêm "app thứ 6" khiến người dùng lười áp dụng (Trung) |
@@ -246,7 +246,7 @@ Cột "Sau" theo quy trình tương lai ở 4.2 (giai đoạn 1, chỉ Rule). Đ
 | **Actor** | Sinh viên chương trình AI20k K5 học nhiều lab/môn cùng lúc, nhận thông báo qua LMS, Phoenix, Discord (và với một số môn: Outlook, Gmail, Zalo) |
 | **Quy trình** | Mỗi sáng: mở LMS (5') → mở Phoenix (5') → lướt các kênh Discord (10') → ghi hạn và lịch vào to-do (5') |
 | **Bottleneck** | Lướt Discord: khoảng 10'/ngày để lọc tin dời hạn và đổi yêu cầu lẫn trong tin thảo luận, dễ sót |
-| **Impact** | 25'/ngày, khoảng 125–150'/tuần cho một sinh viên (ước lượng của Sơn); thỉnh thoảng bỏ sót thay đổi lịch họp đột xuất hoặc deadline phụ; bạn bè phải nhắn hỏi lại nơi nộp, format, hạn (Khoa, chưa đếm số lần) |
+| **Impact** | 25'/ngày, khoảng 125–150'/tuần cho một sinh viên (ước lượng của Sơn); thỉnh thoảng bỏ sót thay đổi lịch họp đột xuất hoặc deadline phụ; bạn bè phải nhắn hỏi lại nơi nộp, format, hạn (Khoa ước lượng 2–3 lần/tuần, chưa đếm) |
 | **Success Metric** (baseline → target, cách đo) | Thời gian kiểm tra mỗi sáng: 25' (ước lượng) → ≤10'; đo bằng tự bấm giờ 5 buổi sáng liên tiếp trước pilot và trong suốt pilot |
 | **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) | Không tự nộp bài; không tự sửa hay xóa lịch đã có; không đăng hay nhắn tin vào kênh lớp. HITL: mọi thay đổi hạn phải được sinh viên đối chiếu với nguồn gốc (LMS hoặc tin của coach/TA) trước khi đổi kế hoạch |
 

@@ -183,7 +183,7 @@ Khi cả nhóm trình bày top 3, tôi thấy 12 problem gom được thành và
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
 
-Có, khi gom 12 candidate, có hai ý nghe rất hợp lý là "bot tổng hợp thông báo" và "chatbot hỏi đáp môn học", nhưng đặt vào cây thì cả hai đều nằm ở tầng giải pháp chứ không phải cơ hội. Tôi gạch hai ý đó và viết lại thành cơ hội ("không bỏ sót thay đổi hạn nộp", "không phải hỏi lại nơi nộp"). Ở bản nháp ban đầu chọn mức Workflow có AI, trong khi nhóm chưa có bằng chứng nào cho thấy Rule là không đủ. Tôi nhận ra mình "ép" cho có AI chứ không phải vì bài toán thực sự cần.
+Có, khi gom 12 candidate, có hai ý nghe rất hợp lý là "bot tổng hợp thông báo" và "chatbot hỏi đáp môn học", nhưng đặt vào cây thì cả hai đều nằm ở tầng giải pháp chứ không phải cơ hội. Tôi gạch hai ý đó và đưa về đúng pain gốc: thông báo của một bài nằm rải rác ở nhiều kênh (Opportunity A) và không chắc thông tin nên phải hỏi lại bạn bè (Opportunity D). Ở bản nháp ban đầu chọn mức Workflow có AI, trong khi nhóm chưa có bằng chứng nào cho thấy Rule là không đủ. Tôi nhận ra mình "ép" cho có AI chứ không phải vì bài toán thực sự cần.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
@@ -193,11 +193,11 @@ Có. Ở card #3 (bạn bè hỏi lại nơi nộp và hạn nộp), AI phản b
 
 Khi tìm công cụ có sẵn, phần lớn việc của bài A đã làm được bằng Rule: LMS (Moodle) xuất được lịch ra Google Calendar, Gmail và Outlook lọc được email theo người gửi hoặc từ khóa, Zapier chuyển được tin Discord sang lịch hoặc gom thành bản tóm tắt. Tôi đã nghĩ bài này cần AI để "hiểu" thông báo, nhưng thực ra chỉ còn phần đọc tin Discord viết tự do là có thể cần AI.
 
-Khi tách quy trình của Sơn ra từng bước thì bottleneck không phải là mở LMS hay Phoenix mà là lướt các kênh Discord, chiếm 10 trong 25 phút mỗi sáng. Điều đáng lo là chỉ mới có 2 phỏng vấn do Sơn tự ghi, chưa có ai ngoài nhóm xác nhận vấn đề.
+Khi tách quy trình của Sơn ra từng bước thì bottleneck không phải là mở LMS hay Phoenix mà là lướt các kênh Discord, chiếm 10 trong 25 phút mỗi sáng. Điều đáng lo là nhóm chưa phỏng vấn ai ngoài nhóm về bài A; 2 buổi phỏng vấn nhanh của Sơn chỉ xác nhận một pain gần (đọc tài liệu lab đầu giờ).
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
-Là việc chọn baseline và metric sao cho trung thực. Con số 25 phút mỗi sáng chỉ là ước lượng của một người, nên viết "giảm từ 25 phút xuống 10 phút" nghe chắc chắn hơn thực tế. Bản v0 cũng chỉ đo tốc độ, trong khi điều sinh viên sợ nhất là bỏ sót hạn nộp hoặc thay đổi yêu cầu. Nếu chỉ đo thời gian thì một giải pháp nhanh nhưng bỏ sót vẫn được tính là đạt. Vậy v1 thêm metric số thông báo bị bỏ sót.
+Là việc chọn baseline và metric sao cho trung thực. Con số 25 phút mỗi sáng chỉ là ước lượng của một người, nên viết "giảm từ 25 phút xuống 10 phút" nghe chắc chắn hơn thực tế. Bản v0 cũng chỉ đo tốc độ, trong khi điều sinh viên sợ nhất là bỏ sót hạn nộp hoặc thay đổi yêu cầu. Nếu chỉ đo thời gian thì một giải pháp nhanh nhưng bỏ sót vẫn được tính là đạt. Vậy v1 thêm metric số lần biết thay đổi muộn và số sự kiện tự tạo bị sai.
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
@@ -205,7 +205,7 @@ Tôi sẽ chốt bài toán trong TEAM.md trước khi chia CP4–CP6 cho các t
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi _problem → quy trình → metric → boundary → mức can thiệp AI → quyết định_ của bài nhóm mình.
 
-Problem: sinh viên mất khoảng 25 phút mỗi sáng mở LMS, web Phoenix và lướt các kênh trong Discord để nhớ hạn nộp hay chú ý thông báo thay đổi yêu cầu, nhưng vẫn có lúc check bị sót. Quy trình hiện tại có 4 bước, bước nghẽn là lướt Discord (khoảng 10 phút). Metric gồm thời gian mỗi sáng (mục tiêu 25 phút xuống khoảng 10 phút) và số thông báo bị bỏ sót, vì chỉ đo tốc độ thì không thấy được rủi ro chính. Boundary: công cụ chỉ gom vào lịch, không tự nộp bài, không sửa hay xóa lịch người dùng tạo, không đăng tin vào server lớp, và mỗi sự kiện tự tạo phải kèm link tin gốc; sinh viên mở link gốc để đối chiếu trước khi đổi kế hoạch, và khi đồng bộ lỗi thì quay về quy trình 4 bước cũ. Mức can thiệp là Rule, vì research cho thấy lịch LMS, bộ lọc email và Zapier đã làm được phần lớn; AI chỉ được xem xét ở giai đoạn 2 nếu đếm log thấy từ 20% tin dời hạn trở lên nằm ngoài kênh chính thức và BTC đồng ý. Quyết định là Go phạm vi nhỏ: pilot Rule 2 tuần trên 4 thành viên, dừng nếu lịch ghi sai hạn mà không ai phát hiện, hoặc sau 2 tuần vẫn mất trên 15 phút mỗi ngày.
+Problem: sinh viên mất khoảng 25 phút mỗi sáng mở LMS, web Phoenix và lướt các kênh trong Discord để nhớ hạn nộp hay chú ý thông báo thay đổi yêu cầu, nhưng vẫn có lúc check bị sót. Quy trình hiện tại có 4 bước, bước nghẽn là lướt Discord (khoảng 10 phút). Metric gồm thời gian mỗi sáng (mục tiêu 25 phút xuống khoảng 10 phút) và số lần biết thay đổi muộn, vì chỉ đo tốc độ thì không thấy được rủi ro chính. Boundary: công cụ chỉ gom vào lịch, không tự nộp bài, không sửa hay xóa lịch người dùng tạo, không đăng tin vào server lớp, và mỗi sự kiện tự tạo phải kèm link tin gốc; sinh viên mở link gốc để đối chiếu trước khi đổi kế hoạch, và khi đồng bộ lỗi thì quay về quy trình 4 bước cũ. Mức can thiệp là Rule, vì research cho thấy lịch LMS, bộ lọc email và Zapier đã làm được phần lớn; AI chỉ được xem xét ở giai đoạn 2 nếu đếm log thấy từ 20% tin dời hạn trở lên nằm ngoài kênh chính thức và BTC đồng ý. Quyết định là Go phạm vi nhỏ: pilot Rule 2 tuần trên 4 thành viên, dừng nếu lịch ghi sai hạn mà không ai phát hiện, hoặc sau 2 tuần vẫn mất trên 15 phút mỗi ngày.
 
 ---
 
