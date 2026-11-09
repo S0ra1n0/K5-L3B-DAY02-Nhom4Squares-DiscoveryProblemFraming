@@ -10,12 +10,12 @@
 
 ## Thành viên
 
-| STT | Họ và tên           | MSSV        | Vai trò trong nhóm                                                  | Tài khoản GitHub |
-| --: | ------------------- | ----------- | ------------------------------------------------------------------- | ---------------- |
-|   1 | Nguyễn Lê Đăng Khoa | 2A202603847 | Nhóm trưởng (fork repo, merge các nhánh)                            | s0ra1n0          |
-|   2 | Nguyễn Tuấn Dũng    | 2A202603859 | Thành viên                                                          | DungNguyen74     |
-|   3 | Nguyễn Hoàng Trung  | 2A202603826 | Người phản biện chính, Thiết kế quy trình & Viết Problem Statement | trungtk03        |
-|   4 | Trần Phạm Minh Sơn  | 2A202603802 | Thành viên                                                          | sontpm           |
+| STT | Họ và tên           | MSSV        | Vai trò trong nhóm                                                                                       | Tài khoản GitHub |
+| --: | ------------------- | ----------- | -------------------------------------------------------------------------------------------------------- | ---------------- |
+|   1 | Nguyễn Lê Đăng Khoa | 2A202603847 | Nhóm trưởng: điều phối, merge các nhánh; phụ trách research, vẽ quy trình, Problem Statement và quyết định | s0ra1n0          |
+|   2 | Nguyễn Tuấn Dũng    | 2A202603859 | Chấm điểm shortlist và xử lý bất đồng khi chọn bài (mục 2.4)                                               | DungNguyen74     |
+|   3 | Nguyễn Hoàng Trung  | 2A202603826 | Người phản biện chính; viết bản đầu quy trình và Problem Statement                                         | trungtk03        |
+|   4 | Trần Phạm Minh Sơn  | 2A202603802 | Phụ trách kiểm chứng (phỏng vấn nhanh); cung cấp số liệu baseline cho bài A (card #2)                      | sontpm           |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
 
@@ -43,26 +43,30 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 **Phần việc phụ trách:**
 
-- Nhóm trưởng: fork repo, mời thành viên, merge các nhánh vào `main`.
-- Dựng phần hội tụ CP3 (bảng pitch, cluster, cây OST).
-- Sau khi nhóm thống nhất giữ bài A: viết lại CP4–CP6 trong `group_report.md` và dọn `TEAM.md`.
+- Nhóm trưởng: fork repo, mời thành viên, điều phối phân công, merge các nhánh vào `main`.
+- CP3: dựng bảng pitch, cluster và cây OST.
+- CP4–CP6 cho bài A: research, quy trình trước/sau, Problem Statement v0/v1, mức can thiệp, quyết định.
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
-- Đưa 3 Problem Card (#4, #5, #6) vào bảng pitch; dựng bảng 2.1 (12 candidate), 2.2 (4 cluster), 2.3 (cây OST).
-- Merge 4 nhánh của nhóm; khôi phục báo cáo cá nhân của Dũng bị mất khi merge (conflict modify/delete).
-- Gộp `TEAM.md` về một bảng thành viên đủ 4 người, sắp đúng tiêu đề từng người.
-- Viết mục 3.1 (Assumption Map), 3.3 (research, link đã kiểm), 4.1–4.3 (quy trình trước/sau), 5 và 7 (Problem Statement v0, v1), 6 (mức can thiệp), 8 (4 rủi ro, quyết định) cho bài A.
-- Gỡ phần dữ liệu kiểm chứng của bài kế toán vì không khớp CP3 và không có minh chứng.
+- Pitch 3 Problem Card (#4, #5, #6). Card #4 cùng card #2 của Sơn thành candidate A, bài nhóm chọn.
+- Dựng bảng 2.1 (12 candidate), 2.2 (4 cluster), 2.3 (cây OST, gạch 2 ý là solution đội lốt).
+- Phản biện 3 card của Trung (#10–#12), ghi vào cột phản biện ở 2.1.
+- Phát hiện CP4–CP6 đang viết cho bài khác với lựa chọn ở CP3 (bài đối chiếu hồ sơ thanh toán), đề xuất nhóm giữ bài A và viết lại cho khớp.
+- Viết mục 3.1 (Assumption Map 5 giả định), 3.3 (5 công cụ có sẵn, chỉ giữ link mở được), 4.1–4.3 (quy trình từ số liệu của Sơn, Before/After), 5 và 7 (Problem Statement v0, v1), 6 (chọn Rule), 8 (4 rủi ro, Go phạm vi nhỏ, 3 ngưỡng dừng).
+- Gỡ 2 file trong `report/assets/` của bài kế toán vì không khớp CP3 và không có minh chứng.
+- Merge 4 nhánh; khôi phục báo cáo cá nhân của Dũng bị mất khi merge (conflict modify/delete); gộp `TEAM.md` về một bảng thành viên.
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
 - `group_report.md`: mục 2.1–2.3, 3.1, 3.3, 4, 5, 6, 7, 8.
-- Commit `755f29d` (bảng CP3), `dee6248` (khôi phục file của Dũng), `c124d07` (dọn TEAM.md, Assumption Map, research), `bf44b7d` (quy trình 4.1, 4.3).
+- Commit `755f29d` (bảng CP3), `dee6248` (khôi phục file của Dũng), `c124d07` (dọn TEAM.md, Assumption Map, research), `bf44b7d` (quy trình 4.1, 4.3), `8a8416e` (viết lại CP4–CP6 cho bài A, gỡ file assets của bài kế toán).
 
 **Điều mình học được từ phần nhóm:**
 
--
+- Phải chốt bài toán bằng văn bản trước khi chia việc. Nhóm đã chọn bài A ở CP3, nhưng CP4–CP6 lại được viết cho một bài khác, nên phải viết lại gần hết.
+- Merge nhiều nhánh cùng sửa một file thì phải merge từng nhánh và xem diff trước khi đẩy lên `main`. Lần này một conflict modify/delete làm mất file của Dũng, và một lần merge khác làm mất các bảng Trung đã điền.
+- Tìm công cụ có sẵn trước khi chọn mức AI. Research cho thấy lịch LMS, bộ lọc email và Zapier đã làm được phần lớn bài A, nên nhóm chọn Rule thay vì Workflow có AI.
 
 ### NguyenTuanDung-2A202603859
 
