@@ -65,17 +65,17 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 | Candidate | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được No AI/Rule/Workflow/Agent | Nhóm hiểu domain | Tổng |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| A — Gom thông tin bài tập từ nhiều kênh (#2 + #4) | | | | | | | | |
-| #10 — Release notes từ Pull Request | | | | | | | | |
-| #7 — Đối chiếu ngữ cảnh ticket từ nhiều nguồn | | | | | | | | |
+| A — Gom thông tin bài tập từ nhiều kênh (#2 + #4) | 5 | 5 | 5 | 4 | 5 | 5 | 5 | 34 |
+| #10 — Release notes từ Pull Request | 4 | 4 | 3 | 3 | 4 | 3 | 3 | 24 |
+| #7 — Đối chiếu ngữ cảnh ticket từ nhiều nguồn | 4 | 4 | 4 | 4 | 3 | 5 | 3 | 27 |
 
-**Candidate được chọn:**
+**Candidate được chọn:** A — Gom thông tin bài tập từ nhiều kênh (#2 + #4).
 
-**Vì sao chọn:**
+**Vì sao chọn:** Cả 4 thành viên đều là actor trực tiếp trải qua hàng ngày, có thể bấm giờ đo baseline ngay trên Discord/LMS/Phoenix, dễ phỏng vấn bạn cùng lớp để lấy bằng chứng thật và tách bạch rất rõ giữa Rule (lọc kênh/từ khóa) với AI Workflow (đọc hiểu tin nhắn đính chính yêu cầu/deadline).
 
-**Vì sao loại các candidate còn lại:**
+**Vì sao loại các candidate còn lại:** Đối chiếu ngữ cảnh ticket (#7) có quy trình và nỗi đau rõ nhưng vướng bảo mật dữ liệu nội bộ công ty thực tập, các thành viên khác không có quyền truy cập Jira/Slack để kiểm chứng trong giờ lab. Soạn Release notes từ PR (#10) tần suất thấp (2 tuần/lần) và phần lớn giải quyết được bằng Rule đặt tên commit kết hợp tính năng tạo tự động có sẵn của GitHub.
 
-**Xử lý bất đồng (nếu có):**
+**Xử lý bất đồng (nếu có):** Dũng ban đầu muốn chọn "#7 — Đối chiếu ngữ cảnh ticket" vì sát với công việc kỹ thuật tại doanh nghiệp hơn. Nhóm thống nhất bản chất hai bài đều là "gom và đối chiếu yêu cầu phân tán", nên ghi #7 vào hướng mở rộng tiếp theo và chọn Candidate A để cả nhóm có dữ liệu thật đo baseline và kiểm chứng được ngay.
 
 ---
 
